@@ -1,0 +1,597 @@
+.main {
+    position: relative;
+}
+
+#reser {
+    height: 50px;
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    width: 90px;
+    background: white;
+    display: block;
+    text-align: center;
+    color: gray;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    line-height: 0px;
+}
+
+.menu1 ul li {
+    list-style-type: none;
+}
+
+.menu li a:hover {
+    border-top: 2px solid #0065FC;
+    color: #0065FC;
+    font-size: 15px;
+}
+
+.menu {
+    /*overflow: auto;*/
+    margin: 10px;
+    padding: 5px;
+    position: absolute;
+    top: 3px;
+    right: 150px;
+}
+
+.menu1 {
+    margin: 10px;
+    padding: 5px;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family:'Raleway', sans-serif;
+}
+
+li a {
+    text-decoration: none;
+    padding: 30px;
+}
+
+.search {
+    position: absolute;
+}
+
+#heb {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 0px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#heb1 {
+    font-size: 12px;
+    color: gray;
+    font-family: 'Raleway', sans-serif;
+}
+
+.search-map {   
+    background-color: #EEE9E9;
+    color: #000000;
+    float: left;
+    border-radius: 10px 0 0 10px;
+    cursor: pointer;
+    position: relative;
+    padding: 12px;
+    font-family: 'Raleway', sans-serif;
+    border: none;
+    font-size: 16px;
+}
+
+input[type="text"] {
+    padding: 12px;
+    border: none;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+}
+
+button {
+    background: blue;
+    color: white;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+    position: relative;
+    padding: 12px;
+    font-family: 'Raleway', sans-serif;
+    border: none;
+    font-size: 16px;
+}
+
+.filtre {
+    position: relative;
+}
+
+.filter-group {
+    width: 500px;
+    border-radius: 25px;
+    background-color: white;
+    border: 2px solid #E2E4E6;
+    margin: 20px;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 0px;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+}
+
+.filter-group:hover {
+    width: 501px;
+    border-radius: 26px;
+    background-color: white;
+    border: 2px solid #E2E4E6;
+    margin: 20px;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 0px;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+}
+
+.filter-group1 {
+    width: 500px;
+    border-radius: 25px;
+    background-color: #DEEBFF;
+    border: 2px solid #DEEBFF;
+    margin: -15px;
+    padding: 15px;
+    text-decoration: none;
+    color: blue;
+}
+
+.filtre p {
+    float: left;
+    margin: 10px;
+}
+
+.information {
+    border-radius: 95px;
+    border: 1px solid #DEEBFF;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 20px;
+}
+
+.inf {
+    color: #0065FC;
+    font-size: 15px;
+    padding: 2px;
+}
+
+#loge {
+    position: relative;
+    z-index: 1;
+    left: 60px;
+    top: -12px;
+    font-family: 'Raleway', sans-serif;
+    color: gray;
+}
+
+.tab {
+    color: #000000;
+    background-color: #F2F2F2;
+    height: 550px;
+    width: 750px;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 30px;
+}
+
+.mar {
+    font-size: 20px;
+    color: #000000;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    margin: 5px;
+    padding: 15px;
+}
+
+.AubergeCanne {
+    position: relative;
+    height: 200px;
+}
+
+.AubergeCanne1 {
+    position: absolute;
+    z-index: 1;
+    left: 30px;
+}
+
+#AubCan {
+    margin: 10px;
+}
+
+#AubCan1 {
+    margin: 10px;
+    font-size: 10px;
+    line-height: 1px;
+}
+
+#AubCan2 {
+    margin: 10px;
+    font-size: 10px;
+}
+
+#cadre {
+    width: 200px;
+    height: 110px;
+    border-radius: 20px;
+    border: 4px solid white;
+    box-shadow: 1px 1px 1px 1px #DEEBFF;
+    object-fit: cover;
+}
+
+.act {
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    width: 206px;
+    height:60px;
+    z-index: 2;
+    font-size: 15px;
+    background: rgb(255,255,255);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 1px solid white;
+    box-shadow: 1px 1px 1px #DEEBFF;
+    font-family: 'Raleway', sans-serif;
+}
+
+.star {
+    font-size: 15px; 
+    color: #0065FC;
+}
+
+.star1 {
+    font-size: 15px; 
+    color: #F2F2F2;
+}
+
+.hotelport1 {
+    position: absolute; 
+    z-index: 1;
+    left: 270px;
+}
+
+.act1 {
+    position: absolute;
+    top: 100px;
+    left: 270px;
+    width: 206px;
+    height:60px;
+    z-index: 2;
+    font-size: 15px;
+    background: rgb(255,255,255);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 1px solid white;
+    box-shadow: 1px 1px 1px #DEEBFF;
+    font-family: 'Raleway', sans-serif;
+}
+
+.hotelmouettes1 {
+    position: absolute; 
+    z-index: 1; 
+    right: 30px;
+}
+
+.act2 {
+    position: absolute;
+    top: 100px;
+    right: 30px;
+    width: 206px;
+    height:60px;
+    z-index: 2;
+    font-size: 15px;
+    background: rgb(255,255,255);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 1px solid white;
+    box-shadow: 1px 1px 1px #DEEBFF;
+    font-family: 'Raleway', sans-serif;
+}
+
+.mar1 {
+    font-size: 15px;
+    color: #000000;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    margin: 5px;
+    padding: 25px;
+}
+
+.act4 {
+    position: absolute;
+    top: 1px;
+    left: 150px;
+    width: 220px;
+    height: 115px;
+    z-index: 2;
+    font-size: 15px;
+    background: rgb(255,255,255);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid white;
+    box-shadow: 1px 1px 1px #DEEBFF;
+    font-family: 'Raleway', sans-serif;
+}
+
+#cadre1 {
+    width: 130px;
+    height: 110px;
+    border-radius: 20px;
+    border: 4px solid white;
+    box-shadow: 1px 1px 1px 1px #DEEBFF;
+    object-fit: cover;
+}
+
+.hotelsoleil {
+    position: relative; 
+    height: 150px;
+}
+
+.tab1 {
+    color: #000000;
+    background-color: #F2F2F2;
+    top: 250px;
+    left: 800px;
+    height: 550px;
+    width: 400px;
+    position: absolute;
+    border-radius: 30px;
+}
+
+.chart-line {
+    float: right;
+    color: #000000;
+    margin: 5px;
+    padding: 15px;
+    font-size: 20px;   
+}
+
+.tabbis {
+    color: #000000;
+    background-color: white;
+    height: 550px;
+    width: 990px;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 30px;
+    position: absolute;
+}
+
+.ActMarseille {
+    position: relative; 
+    height: 200px;
+}
+
+.ActMar1 {
+    position: absolute; 
+    z-index: 1; 
+    left: 10px;
+}
+
+#vieuxport {
+    width: 249px;
+    height: 310px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    object-fit: cover;
+    /*box-shadow: 1px 1px 0px 1px #DEEBFF;*/
+}
+
+.activitémar {
+    position: absolute;
+    top: 310px;
+    left: 10px;
+    width: 250px;
+    height: 40px;
+    z-index: 2;
+    font-size: 15px;
+    background: rgb(255,255,255);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 1px 1px 1px #DEEBFF;
+    font-family: 'Raleway', sans-serif;
+}
+
+#texte {
+    margin: 15px; 
+    display: flex;
+}
+
+.ActMar2 {
+    position: absolute; 
+    z-index: 1; 
+    left: 300px;
+}
+
+#fortp {
+    width: 249px;
+    height: 155px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 1px #DEEBFF;
+    object-fit: cover; 
+}
+
+.activitémar1 {
+    position: absolute;
+    top: 130px;
+    left: 300px;
+    width: 250px;
+    height: 40px;
+    z-index: 2;
+    font-size: 15px;
+    background: rgb(255,255,255);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 1px 1px 1px #DEEBFF;
+    font-family: 'Raleway', sans-serif;
+}
+
+.ActMar3 {
+    position: absolute; 
+    z-index: 1; 
+    left: 300px; 
+    top: 190px;
+}
+
+#frioul {
+    width: 249px;
+    height: 155px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 1px #DEEBFF; 
+    object-fit: cover;
+}
+
+.activitémar2 {
+    position: absolute;
+    top: 310px;
+    left: 300px;
+    width: 250px;
+    height: 40px;
+    z-index: 2;
+    font-size: 15px;
+    background: rgb(255,255,255);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 1px 1px 1px #DEEBFF;
+    font-family: 'Raleway', sans-serif;
+}
+
+.ActMar4 {
+    position: absolute; 
+    z-index: 1; 
+    left: 590px;
+}
+
+.activitémar3 {
+    position: absolute;
+    top: 310px;
+    left: 590px;
+    width: 250px;
+    height: 40px;
+    z-index: 2;
+    font-size: 15px;
+    background: rgb(255,255,255);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 1px 1px 1px #DEEBFF;
+    font-family: 'Raleway', sans-serif;
+}
+
+.ActMar5 {
+    position: absolute; 
+    z-index: 1; 
+    left: 880px;
+}
+
+.activitémar4 {
+    position: absolute;
+    top: 130px;
+    left: 880px;
+    width: 250px;
+    height: 40px;
+    z-index: 2;
+    font-size: 15px;
+    background: rgb(255,255,255);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 1px 1px 1px #DEEBFF;
+    font-family: 'Raleway', sans-serif;
+}
+
+.ActMar6 {
+    position: absolute; 
+    z-index: 1; 
+    left: 880px; 
+    top: 190px;
+}
+
+.activitémar5 {
+    position: absolute;
+    top: 310px;
+    left: 880px;
+    width: 250px;
+    height: 40px;
+    z-index: 2;
+    font-size: 15px;
+    background: rgb(255,255,255);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 1px 1px 1px #DEEBFF;
+    font-family: 'Raleway', sans-serif;
+}
+
+footer {
+    flex-shrink: 0;
+    width: 103%;
+    background: #F2F2F2;
+    color: black;
+    position: relative;
+    top: 500px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.contenu {
+    width: 1250px;
+    display: flex;
+    margin: 0 auto;
+    /*justify-content: center;*/
+    /*align-items: flex-start;*/
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    padding: 50px 0 100px;
+}
+
+.contenu a {
+    text-decoration: none;
+    color: gray;
+}
+
+.contenu a:hover {
+    text-decoration: underline;
+    color: gray;
+}
+
+.propos {
+    width: 75%;
+    margin: 0 30px;
+    line-height: 40px;
+}
+
+.heber {
+    width: 75%;
+    margin: 0 30px;
+    line-height: 40px;
+}
+
+.assis {
+    width: 75%;
+    margin: 0 30px;
+    line-height: 40px;
+}
