@@ -2,6 +2,7 @@
 {
     body {
         background-color: white;
+        overflow-x: hidden;
     }
 
     .main {
@@ -101,16 +102,18 @@
         border-radius: 10px 0 0 10px;
         cursor: pointer;
         position: relative;
-        padding: 12px;
+        padding: 18px;
+        margin-left: 25px;
         font-family: 'Raleway', sans-serif;
         border: none;
-        font-size: 16px;
+        font-size: 20px;
     }
     
     input[type="text"] {
-        padding: 12px;
+        padding: 18px;
+        margin-top: 0px;
         border: none;
-        font-size: 16px;
+        font-size: 20px;
         font-family: 'Raleway', sans-serif;
     }
         
@@ -119,11 +122,15 @@
         color: white;
         border-radius: 0 10px 10px 0;
         cursor: pointer;
-        position: relative;
-        padding: 12px;
+        position: absolute;
+        padding: 18px;
         font-family: 'Raleway', sans-serif;
         border: none;
-        font-size: 16px;
+        font-size: 20px;
+    }
+
+    .recherche {
+        display: none;
     }
 
     .filtre {
@@ -131,49 +138,56 @@
     }
     
     .filter-group {
-        width: 500px;
-        border-radius: 25px;
-        background-color: white;
-        border: 2px solid #E2E4E6;
-        margin: 20px;
-        padding: 15px;
-        line-height: 90px;
-        text-decoration: none;
-        font-size: 15px;
-        font-weight: bold;
-        font-family: 'Raleway', sans-serif;
-        color: black;
-    }
-    
-    .filter-group:hover {
-        width: 501px;
+        width: 201px;
+        display: block;
         border-radius: 26px;
         background-color: white;
         border: 2px solid #E2E4E6;
         margin: 20px;
         padding: 15px;
-        line-height: 90px;
+        line-height: 0px;
         text-decoration: none;
         font-size: 16px;
         font-weight: bold;
         font-family: 'Raleway', sans-serif;
         color: black;
-
+        float: top;
+    }
+    
+    .filter-group:hover {
+        width: 201.5px;
+        border-radius: 26.5px;
+        background-color: white;
+        border: 2px solid #E2E4E6;
+        margin: 20px;
+        padding: 15px;
+        line-height: 0px;
+        text-decoration: none;
+        font-size: 16.5px;
+        font-weight: bold;
+        font-family: 'Raleway', sans-serif;
+        color: black;
+        float: top;
     }
     
     .filter-group1 {
         width: 500px;
-        border-radius: 25px;
+        border-radius: 26.5px;
         background-color: #DEEBFF;
         border: 2px solid #DEEBFF;
-        margin: -15px;
+        margin: -20px;
         padding: 15px;
         text-decoration: none;
         color: blue;
     }
     
     .filtre p {
-        float: left;
+        float: top;
+        margin: 0px;
+    }
+
+    .filtre a .filter-group{
+        float: top;
         margin: 0px;
     }
 
@@ -200,11 +214,11 @@
         font-family: 'Raleway', sans-serif;
         color: gray;
     }
-    /*arret*/
+
     .tab {
         color: #000000;
         /*background-color: #F2F2F2;*/
-        height: 550px;
+        height: 1450px;
         width: 450px;
         margin: 10px;
         padding: 0px;
@@ -237,43 +251,95 @@
         position: relative;
         height: 200px;
     }
-    
+
     .AubergeCanne1 {
-        position: absolute;
+        position: relative;
         z-index: 1;
         left: 30px;
     }
     
-    #AubCan {
-        margin: 10px;
+    .AubergeCanne2 {
+        position: relative;
+        z-index: 1;
+        left: 30px;
+        top: 240px;
+    }
+
+    .mar1 {
+        font-size: 20px;
+        color: #000000;
+        font-weight: bold;
+        font-family: 'Raleway', sans-serif;
+        margin: 5px;
+        padding: 25px;
+        top: 950px;
+        position: relative;
+    }
+
+    .mar1 a {
+        text-decoration: none;
     }
     
-    #AubCan1 {
-        margin: 10px;
-        font-size: 10px;
-        line-height: 1px;
-    }
-    
-    #AubCan2 {
-        margin: 10px;
-        font-size: 10px;
-    }
-    
-    #cadre {
-        width: 300px;
-        height: 110px;
+    #cadrea {
+        width: 350px;
+        height: 140px;
         border-radius: 20px;
         border: 4px solid white;
         box-shadow: 1px 1px 1px 1px #DEEBFF;
         object-fit: cover;
     }
     
+    #cadreb {
+        width: 350px;
+        height: 140px;
+        border-radius: 20px;
+        border: 4px solid white;
+        box-shadow: 1px 1px 1px 1px #DEEBFF;
+        object-fit: cover;
+    }
+    
+    #cadrec {
+        width: 350px;
+        height: 140px;
+        border-radius: 20px;
+        border: 4px solid white;
+        box-shadow: 1px 1px 1px 1px #DEEBFF;
+        object-fit: cover;
+    }
+    
+    #cadred {
+        width: 350px;
+        height: 140px;
+        border-radius: 20px;
+        border: 4px solid white;
+        box-shadow: 1px 1px 1px 1px #DEEBFF;
+        object-fit: cover;
+    }
+    
+    #cadree {
+        width: 350px;
+        height: 140px;
+        border-radius: 20px;
+        border: 4px solid white;
+        box-shadow: 1px 1px 1px 1px #DEEBFF;
+        object-fit: cover;
+    }
+    
+    #cadref {
+        width: 350px;
+        height: 140px;
+        border-radius: 20px;
+        border: 4px solid white;
+        box-shadow: 1px 1px 1px 1px #DEEBFF;
+        object-fit: cover;
+    }
+
     .act {
         position: absolute;
-        top: 100px;
+        top: 130px;
         left: 30px;
-        width: 206px;
-        height:60px;
+        width: 356px;
+        height:80px;
         z-index: 2;
         font-size: 15px;
         background: rgb(255,255,255);
@@ -282,6 +348,147 @@
         border: 1px solid white;
         box-shadow: 1px 1px 1px #DEEBFF;
         font-family: 'Raleway', sans-serif;
+    }
+    
+    .act3 {
+        position: absolute;
+        top: 370px;
+        left: 30px;
+        width: 356px;
+        height:80px;
+        z-index: 2;
+        font-size: 15px;
+        background: rgb(255,255,255);
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border: 1px solid white;
+        box-shadow: 1px 1px 1px #DEEBFF;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .act1 {
+        position: absolute;
+        top: 350px;
+        left: 30px;
+        width: 356px;
+        height:80px;
+        z-index: 2;
+        font-size: 15px;
+        background: rgb(255,255,255);
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border: 1px solid white;
+        box-shadow: 1px 1px 1px #DEEBFF;
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    .act11 {
+        position: absolute;
+        top: 590px;
+        left: 30px;
+        width: 356px;
+        height:80px;
+        z-index: 2;
+        font-size: 15px;
+        background: rgb(255,255,255);
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border: 1px solid white;
+        box-shadow: 1px 1px 1px #DEEBFF;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .act2 {
+        position: absolute;
+        top: 1240px;
+        left: 30px;
+        width: 356px;
+        height:80px;
+        z-index: 2;
+        font-size: 15px;
+        background: rgb(255,255,255);
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border: 1px solid white;
+        box-shadow: 1px 1px 1px #DEEBFF;
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    .act12 {
+        position: absolute;
+        top: 815px;
+        left: 30px;
+        width: 356px;
+        height:80px;
+        z-index: 2;
+        font-size: 15px;
+        background: rgb(255,255,255);
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border: 1px solid white;
+        box-shadow: 1px 1px 1px #DEEBFF;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .hotelport1 {
+        /*position: absolute; 
+        z-index: 1;
+        left: 270px;*/
+
+        position: relative;
+        z-index: 1;
+        left: 30px;
+        top: 70px;
+    }
+    
+    .hotelport2 {
+        /*position: absolute; 
+        z-index: 1;
+        left: 270px;*/
+
+        position: relative;
+        z-index: 1;
+        left: 30px;
+        top: 310px;
+    }
+
+    .hotelmouettes1 {
+        /*position: absolute; 
+        z-index: 1; 
+        right: 30px;*/
+
+        position: relative;
+        z-index: 1;
+        left: 30px;
+        top: 805px;
+    }
+    
+    .hotelmouettes2 {
+        /*position: absolute; 
+        z-index: 1; 
+        right: 30px;*/
+
+        position: relative;
+        z-index: 1;
+        left: 30px;
+        top: 380px;
+    }
+    
+    #AubCan {
+        margin: 15px;
+        font-size: 18px;
+
+    }
+    
+    #AubCan1 {
+        margin: 15px;
+        font-size: 15px;
+        line-height: 1px;
+    }
+    
+    #AubCan2 {
+        margin: 15px;
+        font-size: 12px;
     }
     
     .star {
@@ -292,59 +499,6 @@
     .star1 {
         font-size: 15px; 
         color: #F2F2F2;
-    }
-    
-    .hotelport1 {
-        position: absolute; 
-        z-index: 1;
-        left: 270px;
-    }
-    
-    .act1 {
-        position: absolute;
-        top: 100px;
-        left: 270px;
-        width: 206px;
-        height:60px;
-        z-index: 2;
-        font-size: 15px;
-        background: rgb(255,255,255);
-        border-bottom-right-radius: 20px;
-        border-bottom-left-radius: 20px;
-        border: 1px solid white;
-        box-shadow: 1px 1px 1px #DEEBFF;
-        font-family: 'Raleway', sans-serif;
-    }
-    
-    .hotelmouettes1 {
-        position: absolute; 
-        z-index: 1; 
-        right: 30px;
-    }
-    
-    .act2 {
-        position: absolute;
-        top: 100px;
-        right: 30px;
-        width: 206px;
-        height:60px;
-        z-index: 2;
-        font-size: 15px;
-        background: rgb(255,255,255);
-        border-bottom-right-radius: 20px;
-        border-bottom-left-radius: 20px;
-        border: 1px solid white;
-        box-shadow: 1px 1px 1px #DEEBFF;
-        font-family: 'Raleway', sans-serif;
-    }
-    
-    .mar1 {
-        font-size: 15px;
-        color: #000000;
-        font-weight: bold;
-        font-family: 'Raleway', sans-serif;
-        margin: 5px;
-        padding: 25px;
     }
     
     .act4 {
@@ -390,7 +544,7 @@
         /*background-color: white;*/
         height: 550px;
         width: 990px;
-        margin: 0px;
+        margin: 20px;
         padding: 0px;
         border-radius: 30px;
         position: absolute;
@@ -407,20 +561,40 @@
         left: 10px;
     }
     
+    #texte {
+        margin: 15px; 
+        display: flex;
+    }
+    
+    .ActMar1 {
+        position: relative; 
+        z-index: 1; 
+        left: 10px;
+    }
+    
     #vieuxport {
-        width: 249px;
-        height: 310px;
+        width: 350px;
+        height: 140px;
         border-top-right-radius: 20px;
         border-top-left-radius: 20px;
         object-fit: cover;
         /*box-shadow: 1px 1px 0px 1px #DEEBFF;*/
     }
     
+    #parcna {
+        width: 350px;
+        height: 140px;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+        object-fit: cover;
+        /*box-shadow: 1px 1px 0px 1px #DEEBFF;*/
+    }
+
     .activitémar {
         position: absolute;
-        top: 310px;
+        top: 140px;
         left: 10px;
-        width: 250px;
+        width: 350px;
         height: 40px;
         z-index: 2;
         font-size: 15px;
@@ -431,30 +605,40 @@
         font-family: 'Raleway', sans-serif;
     }
     
-    #texte {
-        margin: 15px; 
-        display: flex;
-    }
-    
     .ActMar2 {
-        position: absolute; 
+        /*position: relative; 
         z-index: 1; 
-        left: 300px;
+        left: 300px;*/
+
+        position: relative; 
+        z-index: 1; 
+        left: 10px;
+        top: 50px;
     }
     
     #fortp {
-        width: 249px;
-        height: 155px;
-        border-radius: 20px;
+        width: 350px;
+        height: 140px;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+        box-shadow: 1px 1px 1px 1px #DEEBFF;
+        object-fit: cover; 
+    }
+    
+    #notredame {
+        width: 350px;
+        height: 140px;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
         box-shadow: 1px 1px 1px 1px #DEEBFF;
         object-fit: cover; 
     }
     
     .activitémar1 {
         position: absolute;
-        top: 130px;
-        left: 300px;
-        width: 250px;
+        top: 330px;
+        left: 10px;
+        width: 350px;
         height: 40px;
         z-index: 2;
         font-size: 15px;
@@ -466,25 +650,40 @@
     }
     
     .ActMar3 {
-        position: absolute; 
+        /*position: relative; 
         z-index: 1; 
         left: 300px; 
-        top: 190px;
+        top: 190px;*/
+
+        position: relative; 
+        z-index: 1; 
+        left: 10px;
+        top: 100px;
     }
     
     #frioul {
-        width: 249px;
-        height: 155px;
-        border-radius: 20px;
+        width: 350px;
+        height: 140px;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
         box-shadow: 1px 1px 1px 1px #DEEBFF; 
         object-fit: cover;
     }
     
+    #parclong {
+        width: 350px;
+        height: 140px;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+        box-shadow: 1px 1px 1px 1px #DEEBFF; 
+        object-fit: cover;
+    }
+
     .activitémar2 {
         position: absolute;
-        top: 310px;
-        left: 300px;
-        width: 250px;
+        top: 525px;
+        left: 10px;
+        width: 350px;
         height: 40px;
         z-index: 2;
         font-size: 15px;
@@ -496,16 +695,21 @@
     }
     
     .ActMar4 {
-        position: absolute; 
+        /*position: relative; 
         z-index: 1; 
-        left: 590px;
+        left: 590px;*/
+
+        position: relative; 
+        z-index: 1; 
+        left: 10px;
+        top: 150px;
     }
     
     .activitémar3 {
         position: absolute;
-        top: 310px;
-        left: 590px;
-        width: 250px;
+        top: 290px;
+        left: 10px;
+        width: 350px;
         height: 40px;
         z-index: 2;
         font-size: 15px;
@@ -517,16 +721,21 @@
     }
     
     .ActMar5 {
-        position: absolute; 
+        /*position: relative; 
         z-index: 1; 
-        left: 880px;
+        left: 880px;*/
+
+        position: relative; 
+        z-index: 1; 
+        left: 10px;
+        top: 200px;
     }
     
     .activitémar4 {
         position: absolute;
-        top: 130px;
-        left: 880px;
-        width: 250px;
+        top: 485px;
+        left: 10px;
+        width: 350px;
         height: 40px;
         z-index: 2;
         font-size: 15px;
@@ -538,17 +747,22 @@
     }
     
     .ActMar6 {
-        position: absolute; 
+        /*position: relative; 
         z-index: 1; 
         left: 880px; 
-        top: 190px;
+        top: 190px;*/
+
+        position: relative; 
+        z-index: 1; 
+        left: 10px;
+        top: 250px;
     }
     
     .activitémar5 {
         position: absolute;
-        top: 310px;
-        left: 880px;
-        width: 250px;
+        top: 675px;
+        left: 10px;
+        width: 350px;
         height: 40px;
         z-index: 2;
         font-size: 15px;
@@ -558,7 +772,7 @@
         box-shadow: 1px 1px 1px #DEEBFF;
         font-family: 'Raleway', sans-serif;
     }
-    
+
     footer {
         flex-shrink: 0;
         width: 100.6%;
@@ -617,6 +831,7 @@
 {
     body {
         background-color: white;
+        overflow-x: hidden;
     }
 
 .main {
@@ -736,6 +951,10 @@ button {
     font-size: 16px;
 }
 
+.recher {
+    display: none;
+}
+
 .filtre {
     position: relative;
 }
@@ -840,6 +1059,12 @@ button {
     left: 30px;
 }
 
+.AubergeCanne2 {
+    position: absolute;
+    z-index: 1;
+    left: 30px;
+}
+
 #AubCan {
     margin: 10px;
 }
@@ -855,7 +1080,52 @@ button {
     font-size: 10px;
 }
 
-#cadre {
+#cadrea {
+    width: 200px;
+    height: 110px;
+    border-radius: 20px;
+    border: 4px solid white;
+    box-shadow: 1px 1px 1px 1px #DEEBFF;
+    object-fit: cover;
+}
+
+#cadreb {
+    width: 200px;
+    height: 110px;
+    border-radius: 20px;
+    border: 4px solid white;
+    box-shadow: 1px 1px 1px 1px #DEEBFF;
+    object-fit: cover;
+}
+
+#cadrec {
+    width: 200px;
+    height: 110px;
+    border-radius: 20px;
+    border: 4px solid white;
+    box-shadow: 1px 1px 1px 1px #DEEBFF;
+    object-fit: cover;
+}
+
+#cadred {
+    width: 200px;
+    height: 110px;
+    border-radius: 20px;
+    border: 4px solid white;
+    box-shadow: 1px 1px 1px 1px #DEEBFF;
+    object-fit: cover;
+}
+
+#cadree {
+    width: 200px;
+    height: 110px;
+    border-radius: 20px;
+    border: 4px solid white;
+    box-shadow: 1px 1px 1px 1px #DEEBFF;
+    object-fit: cover;
+}
+
+#cadref {
     width: 200px;
     height: 110px;
     border-radius: 20px;
@@ -865,6 +1135,22 @@ button {
 }
 
 .act {
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    width: 206px;
+    height:60px;
+    z-index: 2;
+    font-size: 15px;
+    background: rgb(255,255,255);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 1px solid white;
+    box-shadow: 1px 1px 1px #DEEBFF;
+    font-family: 'Raleway', sans-serif;
+}
+
+.act3 {
     position: absolute;
     top: 100px;
     left: 30px;
@@ -896,7 +1182,29 @@ button {
     left: 270px;
 }
 
+.hotelport2 {
+    position: absolute; 
+    z-index: 1;
+    left: 270px;
+}
+
 .act1 {
+    position: absolute;
+    top: 100px;
+    left: 270px;
+    width: 206px;
+    height:60px;
+    z-index: 2;
+    font-size: 15px;
+    background: rgb(255,255,255);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 1px solid white;
+    box-shadow: 1px 1px 1px #DEEBFF;
+    font-family: 'Raleway', sans-serif;
+}
+
+.act11 {
     position: absolute;
     top: 100px;
     left: 270px;
@@ -918,7 +1226,30 @@ button {
     right: 30px;
 }
 
+.hotelmouettes2 {
+    position: absolute; 
+    z-index: 1; 
+    right: 30px;
+}
+
+
 .act2 {
+    position: absolute;
+    top: 100px;
+    right: 30px;
+    width: 206px;
+    height:60px;
+    z-index: 2;
+    font-size: 15px;
+    background: rgb(255,255,255);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 1px solid white;
+    box-shadow: 1px 1px 1px #DEEBFF;
+    font-family: 'Raleway', sans-serif;
+}
+
+.act12 {
     position: absolute;
     top: 100px;
     right: 30px;
@@ -941,6 +1272,9 @@ button {
     font-family: 'Raleway', sans-serif;
     margin: 5px;
     padding: 25px;
+}
+.mar1 a {
+    text-decoration: none;
 }
 
 .act4 {
@@ -1023,6 +1357,20 @@ button {
     /*box-shadow: 1px 1px 0px 1px #DEEBFF;*/
 }
 
+#parcna {
+    width: 249px;
+    height: 310px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    object-fit: cover;
+    /*box-shadow: 1px 1px 0px 1px #DEEBFF;*/
+}
+
+#texte {
+    margin: 15px; 
+    display: flex;
+}
+
 .activitémar {
     position: absolute;
     top: 310px;
@@ -1038,11 +1386,6 @@ button {
     font-family: 'Raleway', sans-serif;
 }
 
-#texte {
-    margin: 15px; 
-    display: flex;
-}
-
 .ActMar2 {
     position: absolute; 
     z-index: 1; 
@@ -1050,6 +1393,14 @@ button {
 }
 
 #fortp {
+    width: 249px;
+    height: 155px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 1px #DEEBFF;
+    object-fit: cover; 
+}
+
+#notredame {
     width: 249px;
     height: 155px;
     border-radius: 20px;
@@ -1080,6 +1431,14 @@ button {
 }
 
 #frioul {
+    width: 249px;
+    height: 155px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 1px #DEEBFF; 
+    object-fit: cover;
+}
+
+#parclong {
     width: 249px;
     height: 155px;
     border-radius: 20px;
@@ -1168,7 +1527,7 @@ button {
 
 footer {
     flex-shrink: 0;
-    width: 100.6%;
+    width: 110%;
     background-color: #F2F2F2;
     color: black;
     position: relative;
