@@ -108,6 +108,10 @@
         border: none;
         font-size: 20px;
     }
+
+    .map {
+        color: black;
+    }
     
     input[type="text"] {
         padding: 18px;
@@ -482,23 +486,22 @@
         top: 440px; /*380*/
     }
     
-    #AubCan {
+    #AubCan, #HotPor, #HotMou, #HotMer, #AubPan, #HotAmi, #HotSol, #Coeur, #HotBleu {
         margin: 15px;
         font-size: 18px;
-
     }
     
-    #AubCan1 {
+    #AubCan1, #HotPor1, #HotMou1, #HotMer1, #AubPan1, #HotAmi1, #HotSol1, #Coeur1, #HotBleu1 {
         margin: 15px;
         font-size: 15px;
         line-height: 1px;
     }
     
-    #AubCan2 {
+    #AubCan2, #HotPor2, #HotMou2, #HotMer2, #AubPan2, #HotAmi2, #HotSol2, #Coeur2, #HotBleu2 {
         margin: 15px;
         font-size: 12px;
     }
-    
+
     .star {
         font-size: 15px; 
         color: #0065FC;
@@ -1119,17 +1122,17 @@ button {
     left: 30px;
 }
 
-#AubCan {
+#AubCan, #HotPor, #HotMou, #HotMer, #AubPan, #HotAmi, #HotSol, #Coeur, #HotBleu {
     margin: 10px;
 }
 
-#AubCan1 {
+#AubCan1, #HotPor1, #HotMou1, #HotMer1, #AubPan1, #HotAmi1, #HotSol1, #Coeur1, #HotBleu1 {
     margin: 10px;
     font-size: 10px;
     line-height: 1px;
 }
 
-#AubCan2 {
+#AubCan2, #HotPor2, #HotMou2, #HotMer2, #AubPan2, #HotAmi2, #HotSol2, #Coeur2, #HotBleu2 {
     margin: 10px;
     font-size: 10px;
 }
