@@ -1,4 +1,4 @@
-@media screen and (max-width: 501px)
+@media all and (max-width: 501px)
 {
     body {
         background-color: white;
@@ -797,7 +797,7 @@
 
 }
 
-@media screen and (min-width: 501px) and (max-width: 1280px)
+@media all and (min-width: 501px) and (max-width: 1280px)
 {
     body {
         background-color: white;
@@ -1461,6 +1461,7 @@ button {
 }
 
 footer {
+    display: flex;
     flex-shrink: 0;
     width: 110%;
     background-color: #F2F2F2;
