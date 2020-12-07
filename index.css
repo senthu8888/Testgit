@@ -202,8 +202,10 @@
     
     .inf {
         color: #0065FC;
-        font-size: 15px;
+        font-size: 14px;
         padding: 2px;
+        text-align: center;
+        margin-top: 1px;
     }
     
     #loge {
@@ -567,9 +569,39 @@
         left: 10px;
     }
     
-    #texte {
+    #texte1 {
         margin: 15px; 
         display: flex;
+        font-weight: bold;
+    }
+    
+    #texte2 {
+        margin: 15px; 
+        display: flex;
+        font-weight: bold;
+    }
+    
+    #texte3 {
+        margin: 15px; 
+        display: flex;
+        font-weight: bold;
+    }
+    
+    #texte4 {
+        margin: 15px; 
+        display: flex;
+        font-weight: bold;
+    }
+    #texte5 {
+        margin: 15px; 
+        display: flex;
+        font-weight: bold;
+    }
+    
+    #texte6 {
+        margin: 15px; 
+        display: flex;
+        font-weight: bold;
     }
     
     .ActMar1 {
@@ -947,6 +979,10 @@ li a {
     font-size: 16px;
 }
 
+.map {
+    color: black;
+}
+
 input[type="text"] {
     padding: 12px;
     margin-right: -3px;
@@ -1032,8 +1068,10 @@ button {
 
 .inf {
     color: #0065FC;
-    font-size: 15px;
+    font-size: 14px;
     padding: 2px;
+    text-align: center;
+    margin-top: 1px;
 }
 
 #loge {
@@ -1382,9 +1420,39 @@ button {
     /*box-shadow: 1px 1px 0px 1px #DEEBFF;*/
 }
 
-#texte {
+#texte1 {
     margin: 15px; 
     display: flex;
+    font-weight: bold;
+}
+
+#texte2 {
+    margin: 15px; 
+    display: flex;
+    font-weight: bold;
+}
+
+#texte3 {
+    margin: 15px; 
+    display: flex;
+    font-weight: bold;
+}
+
+#texte4 {
+    margin: 15px; 
+    display: flex;
+    font-weight: bold;
+}
+#texte5 {
+    margin: 15px; 
+    display: flex;
+    font-weight: bold;
+}
+
+#texte6 {
+    margin: 15px; 
+    display: flex;
+    font-weight: bold;
 }
 
 .activitémar {
