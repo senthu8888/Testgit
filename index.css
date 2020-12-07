@@ -1,4 +1,4 @@
-@media all and (max-width: 501px)
+@media screen and (max-width: 501px)
 {
     body {
         background-color: white;
@@ -24,7 +24,6 @@
         text-decoration: none;
         width: 210px;
         background: white;
-        /*display: flex;*/
         text-align: center;
         color: gray;
         border-bottom: 2px solid #F2F2F2;
@@ -54,6 +53,7 @@
         top: 3px;
         right: 150px;
         line-height: 0px;
+        display: flex;
     }
 
     .menu1 {
@@ -66,13 +66,14 @@
         color: #0065FC;
         font-weight: bold;
         font-family:'Raleway', sans-serif;
+        display: flex;
     }
     
     li a {
         text-decoration: none;
         padding: 30px;
         color: #0065FC;
-    } 
+    }
 
     .search {
         position: relative;
@@ -284,6 +285,7 @@
 
     .mar1 a {
         text-decoration: none;
+        color: #000000;
     }
     
     #cadrea, #cadreb, #cadrec, #cadred, #cadree, #cadref {
@@ -797,7 +799,7 @@
 
 }
 
-@media all and (min-width: 501px) and (max-width: 1280px)
+@media screen and (min-width: 501px) and (max-width: 1280px)
 {
     body {
         background-color: white;
@@ -877,7 +879,14 @@ li a {
     position: absolute;
 }
 
-#heb, #fils {
+#heb {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 0px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#fils {
     font-size: 20px;
     font-weight: bold;
     line-height: 0px;
@@ -1208,6 +1217,7 @@ button {
 }
 .mar1 a {
     text-decoration: none;
+    color: #000000;
 }
 
 .act4 {
@@ -1243,7 +1253,7 @@ button {
 .tab1 {
     color: #000000;
     background-color: #F2F2F2;
-    top: 250px;
+    top: 270px;
     left: 800px;
     height: 550px;
     width: 400px;
