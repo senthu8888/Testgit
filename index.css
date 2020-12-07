@@ -1,4 +1,4 @@
-@media screen and (max-width: 400px)
+@media screen and (max-width: 399px)
 {
     body {
         background-color: white;
@@ -238,8 +238,8 @@
         background-color: #F2F2F2;
         margin: 10px;
         padding: 0px;
-        /*top: 250px;
-        left: 800px;*/
+        /*top: 250px;*/
+        left: 800px;
         height: 600px;
         width: 450px;
         /*position: absolute;*/
@@ -270,7 +270,7 @@
         position: relative;
         z-index: 1;
         left: 30px;
-        top: 270px; /*240*/
+        top: 270px;
     }
 
     .mar1 {
@@ -317,7 +317,7 @@
     
     .act3 {
         position: absolute;
-        top: 410px; /*370*/
+        top: 410px;
         left: 30px;
         width: 356px;
         height:80px;
@@ -333,7 +333,7 @@
 
     .act1 {
         position: absolute;
-        top: 380px; /*350*/
+        top: 380px;
         left: 30px;
         width: 356px;
         height:80px;
@@ -349,7 +349,7 @@
     
     .act11 {
         position: absolute;
-        top: 650px; /*590*/
+        top: 650px;
         left: 30px;
         width: 356px;
         height:80px;
@@ -365,7 +365,7 @@
 
     .act2 {
         position: absolute;
-        top: 1330px; /*1240*/
+        top: 1330px;
         left: 30px;
         width: 356px;
         height:80px;
@@ -381,7 +381,7 @@
     
     .act12 {
         position: absolute;
-        top: 890px; /*815*/
+        top: 890px;
         left: 30px;
         width: 356px;
         height:80px;
@@ -396,47 +396,31 @@
     }
 
     .hotelport1 {
-        /*position: absolute; 
-        z-index: 1;
-        left: 270px;*/
-
         position: relative;
         z-index: 1;
         left: 30px;
-        top: 80px; /*70*/
+        top: 80px;
     }
     
     .hotelport2 {
-        /*position: absolute; 
-        z-index: 1;
-        left: 270px;*/
-
         position: relative;
         z-index: 1;
         left: 30px;
-        top: 350px; /*310*/
+        top: 350px;
     }
 
     .hotelmouettes1 {
-        /*position: absolute; 
-        z-index: 1; 
-        right: 30px;*/
-
         position: relative;
         z-index: 1;
         left: 30px;
-        top: 880px; /*805*/
+        top: 880px;
     }
     
     .hotelmouettes2 {
-        /*position: absolute; 
-        z-index: 1; 
-        right: 30px;*/
-
         position: relative;
         z-index: 1;
         left: 30px;
-        top: 440px; /*380*/
+        top: 440px;
     }
     
     #AubCan, #HotPor, #HotMou, #HotMer, #AubPan, #HotAmi, #HotSol, #Coeur, #HotBleu {
@@ -571,10 +555,6 @@
     }
     
     .ActMar2 {
-        /*position: relative; 
-        z-index: 1; 
-        left: 300px;*/
-
         position: relative; 
         z-index: 1; 
         left: 10px;
@@ -615,11 +595,6 @@
     }
     
     .ActMar3 {
-        /*position: relative; 
-        z-index: 1; 
-        left: 300px; 
-        top: 190px;*/
-
         position: relative; 
         z-index: 1; 
         left: 10px;
@@ -660,10 +635,6 @@
     }
     
     .ActMar4 {
-        /*position: relative; 
-        z-index: 1; 
-        left: 590px;*/
-
         position: relative; 
         z-index: 1; 
         left: 10px;
@@ -686,10 +657,6 @@
     }
     
     .ActMar5 {
-        /*position: relative; 
-        z-index: 1; 
-        left: 880px;*/
-
         position: relative; 
         z-index: 1; 
         left: 10px;
@@ -712,11 +679,6 @@
     }
     
     .ActMar6 {
-        /*position: relative; 
-        z-index: 1; 
-        left: 880px; 
-        top: 190px;*/
-
         position: relative; 
         z-index: 1; 
         left: 10px;
@@ -763,8 +725,6 @@
         width: 1195px;
         /*display: flex;*/
         margin: 0 auto;
-        /*justify-content: center;*/
-        /*align-items: flex-start;*/
         font-size: 15px;
         font-family: 'Raleway', sans-serif;
         padding: 50px 0 100px;
