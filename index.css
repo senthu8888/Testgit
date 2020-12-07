@@ -78,7 +78,7 @@
         position: relative;
     }
     
-    #heb {
+    #heb, #fils {
         font-size: 30px;
         font-weight: bold;
         line-height: 30px;
@@ -286,57 +286,7 @@
         text-decoration: none;
     }
     
-    #cadrea {
-        width: 350px;
-        height: 140px;
-        border-top-right-radius: 20px;
-        border-top-left-radius: 20px;
-        border: 4px solid white;
-        box-shadow: 1px 1px 1px 1px #DEEBFF;
-        object-fit: cover;
-    }
-    
-    #cadreb {
-        width: 350px;
-        height: 140px;
-        border-top-right-radius: 20px;
-        border-top-left-radius: 20px;
-        border: 4px solid white;
-        box-shadow: 1px 1px 1px 1px #DEEBFF;
-        object-fit: cover;
-    }
-    
-    #cadrec {
-        width: 350px;
-        height: 140px;
-        border-top-right-radius: 20px;
-        border-top-left-radius: 20px;
-        border: 4px solid white;
-        box-shadow: 1px 1px 1px 1px #DEEBFF;
-        object-fit: cover;
-    }
-    
-    #cadred {
-        width: 350px;
-        height: 140px;
-        border-top-right-radius: 20px;
-        border-top-left-radius: 20px;
-        border: 4px solid white;
-        box-shadow: 1px 1px 1px 1px #DEEBFF;
-        object-fit: cover;
-    }
-    
-    #cadree {
-        width: 350px;
-        height: 140px;
-        border-top-right-radius: 20px;
-        border-top-left-radius: 20px;
-        border: 4px solid white;
-        box-shadow: 1px 1px 1px 1px #DEEBFF;
-        object-fit: cover;
-    }
-    
-    #cadref {
+    #cadrea, #cadreb, #cadrec, #cadred, #cadree, #cadref {
         width: 350px;
         height: 140px;
         border-top-right-radius: 20px;
@@ -528,7 +478,7 @@
         font-family: 'Raleway', sans-serif;
     }
     
-    #cadre1 {
+    #cadre1, #cadre2, #cadre3 {
         width: 160px;
         height: 140px;
         border-radius: 20px;
@@ -571,42 +521,13 @@
         z-index: 1; 
         left: 10px;
     }
-    
-    #texte1 {
+
+    #texte1, #texte2, #texte3, #texte4, #texte5, #texte6  {
         margin: 15px; 
         display: flex;
         font-weight: bold;
     }
-    
-    #texte2 {
-        margin: 15px; 
-        display: flex;
-        font-weight: bold;
-    }
-    
-    #texte3 {
-        margin: 15px; 
-        display: flex;
-        font-weight: bold;
-    }
-    
-    #texte4 {
-        margin: 15px; 
-        display: flex;
-        font-weight: bold;
-    }
-    #texte5 {
-        margin: 15px; 
-        display: flex;
-        font-weight: bold;
-    }
-    
-    #texte6 {
-        margin: 15px; 
-        display: flex;
-        font-weight: bold;
-    }
-    
+
     .ActMar1 {
         position: relative; 
         z-index: 1; 
@@ -956,7 +877,7 @@ li a {
     position: absolute;
 }
 
-#heb {
+#heb, #fils {
     font-size: 20px;
     font-weight: bold;
     line-height: 0px;
@@ -1137,52 +1058,7 @@ button {
     font-size: 10px;
 }
 
-#cadrea {
-    width: 200px;
-    height: 110px;
-    border-radius: 20px;
-    border: 4px solid white;
-    box-shadow: 1px 1px 1px 1px #DEEBFF;
-    object-fit: cover;
-}
-
-#cadreb {
-    width: 200px;
-    height: 110px;
-    border-radius: 20px;
-    border: 4px solid white;
-    box-shadow: 1px 1px 1px 1px #DEEBFF;
-    object-fit: cover;
-}
-
-#cadrec {
-    width: 200px;
-    height: 110px;
-    border-radius: 20px;
-    border: 4px solid white;
-    box-shadow: 1px 1px 1px 1px #DEEBFF;
-    object-fit: cover;
-}
-
-#cadred {
-    width: 200px;
-    height: 110px;
-    border-radius: 20px;
-    border: 4px solid white;
-    box-shadow: 1px 1px 1px 1px #DEEBFF;
-    object-fit: cover;
-}
-
-#cadree {
-    width: 200px;
-    height: 110px;
-    border-radius: 20px;
-    border: 4px solid white;
-    box-shadow: 1px 1px 1px 1px #DEEBFF;
-    object-fit: cover;
-}
-
-#cadref {
+#cadrea, #cadreb, #cadrec, #cadred, #cadree, #cadref {
     width: 200px;
     height: 110px;
     border-radius: 20px;
@@ -1350,7 +1226,7 @@ button {
     font-family: 'Raleway', sans-serif;
 }
 
-#cadre1 {
+#cadre1, #cadre2, #cadre3 {
     width: 130px;
     height: 110px;
     border-radius: 20px;
@@ -1423,40 +1299,12 @@ button {
     /*box-shadow: 1px 1px 0px 1px #DEEBFF;*/
 }
 
-#texte1 {
+#texte1, #texte2, #texte3, #texte4, #texte5, #texte6  {
     margin: 15px; 
     display: flex;
     font-weight: bold;
 }
 
-#texte2 {
-    margin: 15px; 
-    display: flex;
-    font-weight: bold;
-}
-
-#texte3 {
-    margin: 15px; 
-    display: flex;
-    font-weight: bold;
-}
-
-#texte4 {
-    margin: 15px; 
-    display: flex;
-    font-weight: bold;
-}
-#texte5 {
-    margin: 15px; 
-    display: flex;
-    font-weight: bold;
-}
-
-#texte6 {
-    margin: 15px; 
-    display: flex;
-    font-weight: bold;
-}
 
 .activitémar {
     position: absolute;
