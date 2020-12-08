@@ -1563,6 +1563,7 @@
 
 @media screen and (min-width: 501px) and (max-width: 1280px)
 {
+
     body {
         background-color: white;
         overflow-x: hidden;
@@ -1779,13 +1780,12 @@ button {
 }
 
 .tab {
-    color: #000000;
     background-color: #F2F2F2;
     height: 550px;
-    width: 750px;
+    width: 780px;
     margin: 0px;
     padding: 0px;
-    border-radius: 30px;
+    border-radius: 15px;
 }
 
 .mar {
@@ -1798,76 +1798,61 @@ button {
 }
 
 .AubergeCanne {
-    position: relative;
-    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
-.AubergeCanne1 {
-    position: absolute;
-    z-index: 1;
-    left: 30px;
+.AubergeCanne a {
+    text-decoration: none;
 }
 
-.AubergeCanne2 {
-    position: absolute;
-    z-index: 1;
-    left: 30px;
-}
-
-#AubCan, #HotPor, #HotMou, #HotMer, #AubPan, #HotAmi, #HotSol, #Coeur, #HotBleu {
+.AubergeCanne1, .hotelport1, .hotelmouettes1, 
+.AubergeCanne2, .hotelport2, .hotelmouettes2 {
+    border-radius: 20px;
     margin: 10px;
 }
 
-#AubCan1, #HotPor1, #HotMou1, #HotMer1, #AubPan1, #HotAmi1, #HotSol1, #Coeur1, #HotBleu1 {
-    margin: 10px;
-    font-size: 10px;
-    line-height: 1px;
+.auba {
+    width: 200px;
+    padding: 4px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 0px;
+    box-shadow: 2px 1px 5px 2px rgb(216, 203, 203);
 }
 
-#AubCan2, #HotPor2, #HotMou2, #HotMer2, #AubPan2, #HotAmi2, #HotSol2, #Coeur2, #HotBleu2 {
-    margin: 10px;
-    font-size: 10px;
+.auba1 {
+    margin-top: 20px;
+    margin-left: 30px;
+    margin: 0;
+    padding: 6px;
+    display: flex;
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 2px 1px 5px 2px rgb(209, 209, 209);
 }
 
 #cadrea, #cadreb, #cadrec, #cadred, #cadree, #cadref {
     width: 200px;
-    height: 110px;
-    border-radius: 20px;
-    border: 4px solid white;
-    box-shadow: 1px 1px 1px 1px #DEEBFF;
+    height: 100px;
+    border-radius: 20px 20px 0 0;
+    -o-object-fit: cover;
     object-fit: cover;
 }
 
-.act {
-    position: absolute;
-    top: 100px;
-    left: 30px;
-    width: 206px;
-    height:60px;
-    z-index: 2;
-    font-size: 15px;
-    background: rgb(255,255,255);
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border: 1px solid white;
-    box-shadow: 1px 1px 1px #DEEBFF;
+#AubCan, #AubCan1, #HotPor, #HotPor1, #HotMou, #HotMou1, 
+#HotMer, #HotMer1, #AubPan, #AubPan1, #HotAmi, #HotAmi1 {
+    margin-top: 23px;
+    text-decoration: none;
+    color: black;
     font-family: 'Raleway', sans-serif;
 }
 
-.act3 {
-    position: absolute;
-    top: 100px;
-    left: 30px;
-    width: 206px;
-    height:60px;
-    z-index: 2;
-    font-size: 15px;
-    background: rgb(255,255,255);
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border: 1px solid white;
-    box-shadow: 1px 1px 1px #DEEBFF;
-    font-family: 'Raleway', sans-serif;
+.act, .act1, .act2, .act3, .act11, .act12 {
+    line-height: 2px;
+    margin-bottom: 2px;
+    margin-left: 10px;
 }
 
 .star {
@@ -1880,366 +1865,195 @@ button {
     color: #F2F2F2;
 }
 
-.hotelport1 {
-    position: absolute; 
-    z-index: 1;
-    left: 270px;
-}
-
-.hotelport2 {
-    position: absolute; 
-    z-index: 1;
-    left: 270px;
-}
-
-.act1 {
-    position: absolute;
-    top: 100px;
-    left: 270px;
-    width: 206px;
-    height:60px;
-    z-index: 2;
-    font-size: 15px;
-    background: rgb(255,255,255);
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border: 1px solid white;
-    box-shadow: 1px 1px 1px #DEEBFF;
-    font-family: 'Raleway', sans-serif;
-}
-
-.act11 {
-    position: absolute;
-    top: 100px;
-    left: 270px;
-    width: 206px;
-    height:60px;
-    z-index: 2;
-    font-size: 15px;
-    background: rgb(255,255,255);
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border: 1px solid white;
-    box-shadow: 1px 1px 1px #DEEBFF;
-    font-family: 'Raleway', sans-serif;
-}
-
-.hotelmouettes1 {
-    position: absolute; 
-    z-index: 1; 
-    right: 30px;
-}
-
-.hotelmouettes2 {
-    position: absolute; 
-    z-index: 1; 
-    right: 30px;
-}
-
-
-.act2 {
-    position: absolute;
-    top: 100px;
-    right: 30px;
-    width: 206px;
-    height:60px;
-    z-index: 2;
-    font-size: 15px;
-    background: rgb(255,255,255);
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border: 1px solid white;
-    box-shadow: 1px 1px 1px #DEEBFF;
-    font-family: 'Raleway', sans-serif;
-}
-
-.act12 {
-    position: absolute;
-    top: 100px;
-    right: 30px;
-    width: 206px;
-    height:60px;
-    z-index: 2;
-    font-size: 15px;
-    background: rgb(255,255,255);
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border: 1px solid white;
-    box-shadow: 1px 1px 1px #DEEBFF;
-    font-family: 'Raleway', sans-serif;
-}
-
 .mar1 {
-    font-size: 15px;
-    color: #000000;
+    margin-left: 50px;
+    margin-top: 30px;
     font-weight: bold;
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: black;
     font-family: 'Raleway', sans-serif;
-    margin: 5px;
-    padding: 25px;
 }
+
 .mar1 a {
     text-decoration: none;
     color: #000000;
 }
 
 .act4 {
-    position: absolute;
-    top: 1px;
-    left: 150px;
-    width: 220px;
-    height: 115px;
-    z-index: 2;
-    font-size: 15px;
-    background: rgb(255,255,255);
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border: 1px solid white;
-    box-shadow: 1px 1px 1px #DEEBFF;
-    font-family: 'Raleway', sans-serif;
+    margin-left: 24px;
+    width: 160px;
 }
 
 #cadre1, #cadre2, #cadre3 {
     width: 130px;
-    height: 110px;
-    border-radius: 20px;
-    border: 4px solid white;
-    box-shadow: 1px 1px 1px 1px #DEEBFF;
+    height: 120px;
+    border-radius: 10px 0px 0px 10px;
+    -o-object-fit: cover;
     object-fit: cover;
 }
 
 .hotelsoleil {
-    position: relative; 
-    height: 150px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 30px;
+}
+
+.hotelsoleil a {
+    text-decoration: none;
 }
 
 .tab1 {
     color: #000000;
     background-color: #F2F2F2;
-    top: 270px;
+    top: 280px;
     left: 800px;
     height: 550px;
     width: 400px;
     position: absolute;
-    border-radius: 30px;
+    border-radius: 15px;
 }
 
-.chart-line {
-    float: right;
-    color: #000000;
-    margin: 5px;
-    padding: 15px;
-    font-size: 20px;   
+.tab1 h1 {
+    margin-left: 20px;
+    margin-right: 21px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+#EnsembleHer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+#HotSol, #HotSol1, #Coeur, #Coeur1, #HotBleu, #HotBleu1 {
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
 }
 
 .tabbis {
-    color: #000000;
-    /*background-color: white;*/
-    height: 550px;
-    width: 990px;
-    margin: 0px;
-    padding: 0px;
-    border-radius: 30px;
-    position: absolute;
+    margin-top: 30px;
+}
+
+#marseillebo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+#marseillebo1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#marseillebo a, #marseillebo1 a {
+    text-decoration: none;
 }
 
 .ActMarseille {
-    position: relative; 
-    height: 200px;
+    border-radius: 10px;
+    margin: 10px;
 }
 
-.ActMar1 {
-    position: absolute; 
-    z-index: 1; 
-    left: 10px;
+.ActMar1, .ActMar4 {
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid #f2f2f2;
+    margin-top: 13px;
+    margin: 0;
 }
 
-#vieuxport {
-    width: 249px;
-    height: 310px;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
+#vieuxport, #parcna {
+    width: 260px;
+    height: 336px;
+    -o-object-fit: cover;
     object-fit: cover;
-    /*box-shadow: 1px 1px 0px 1px #DEEBFF;*/
+    border-radius: 10px 10px 0px 0px;
 }
 
-#parcna {
-    width: 249px;
-    height: 310px;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-    object-fit: cover;
-    /*box-shadow: 1px 1px 0px 1px #DEEBFF;*/
-}
-
-#texte1, #texte2, #texte3, #texte4, #texte5, #texte6  {
-    margin: 15px; 
-    display: flex;
+.activitémar, .activitémar1, .activitémar2, 
+.activitémar3, .activitémar4, .activitémar5 {
+    align-items: center;
+    margin-left: 10px;
     font-weight: bold;
-}
-
-
-.activitémar {
-    position: absolute;
-    top: 310px;
-    left: 10px;
-    width: 250px;
-    height: 40px;
-    z-index: 2;
-    font-size: 15px;
-    background: rgb(255,255,255);
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    box-shadow: 1px 1px 1px #DEEBFF;
+    color: black;
     font-family: 'Raleway', sans-serif;
 }
 
 .ActMar2 {
-    position: absolute; 
-    z-index: 1; 
-    left: 300px;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid #f2f2f2;
+    margin: 0;
 }
 
 #fortp {
-    width: 249px;
-    height: 155px;
-    border-radius: 20px;
-    box-shadow: 1px 1px 1px 1px #DEEBFF;
-    object-fit: cover; 
+    width: 280px;
+    height: 130px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
 }
 
 #notredame {
-    width: 249px;
-    height: 155px;
-    border-radius: 20px;
-    box-shadow: 1px 1px 1px 1px #DEEBFF;
-    object-fit: cover; 
-}
-
-.activitémar1 {
-    position: absolute;
-    top: 130px;
-    left: 300px;
-    width: 250px;
-    height: 40px;
-    z-index: 2;
-    font-size: 15px;
-    background: rgb(255,255,255);
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    box-shadow: 1px 1px 1px #DEEBFF;
-    font-family: 'Raleway', sans-serif;
+    width: 280px;
+    height: 130px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
 }
 
 .ActMar3 {
-    position: absolute; 
-    z-index: 1; 
-    left: 300px; 
-    top: 190px;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid #f2f2f2;
+    margin: 0;
 }
 
 #frioul {
-    width: 249px;
-    height: 155px;
-    border-radius: 20px;
-    box-shadow: 1px 1px 1px 1px #DEEBFF; 
+    width: 280px;
+    height: 130px;
+    -o-object-fit: cover;
     object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
 }
 
 #parclong {
-    width: 249px;
-    height: 155px;
-    border-radius: 20px;
-    box-shadow: 1px 1px 1px 1px #DEEBFF; 
+    width: 280px;
+    height: 130px;
+    -o-object-fit: cover;
     object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
 }
 
-.activitémar2 {
-    position: absolute;
-    top: 310px;
-    left: 300px;
-    width: 250px;
-    height: 40px;
-    z-index: 2;
-    font-size: 15px;
-    background: rgb(255,255,255);
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    box-shadow: 1px 1px 1px #DEEBFF;
-    font-family: 'Raleway', sans-serif;
-}
-
-.ActMar4 {
-    position: absolute; 
-    z-index: 1; 
-    left: 590px;
-}
-
-.activitémar3 {
-    position: absolute;
-    top: 310px;
-    left: 590px;
-    width: 250px;
-    height: 40px;
-    z-index: 2;
-    font-size: 15px;
-    background: rgb(255,255,255);
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    box-shadow: 1px 1px 1px #DEEBFF;
-    font-family: 'Raleway', sans-serif;
-}
-
-.ActMar5 {
-    position: absolute; 
-    z-index: 1; 
-    left: 880px;
-}
-
-.activitémar4 {
-    position: absolute;
-    top: 130px;
-    left: 880px;
-    width: 250px;
-    height: 40px;
-    z-index: 2;
-    font-size: 15px;
-    background: rgb(255,255,255);
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    box-shadow: 1px 1px 1px #DEEBFF;
-    font-family: 'Raleway', sans-serif;
-}
-
-.ActMar6 {
-    position: absolute; 
-    z-index: 1; 
-    left: 880px; 
-    top: 190px;
-}
-
-.activitémar5 {
-    position: absolute;
-    top: 310px;
-    left: 880px;
-    width: 250px;
-    height: 40px;
-    z-index: 2;
-    font-size: 15px;
-    background: rgb(255,255,255);
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    box-shadow: 1px 1px 1px #DEEBFF;
-    font-family: 'Raleway', sans-serif;
+.ActMar5, .ActMar6  {
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid #f2f2f2;
+    margin: 0;
 }
 
 footer {
     display: flex;
-    flex-shrink: 0;
+    /*flex-shrink: 0;*/
     width: 110%;
     background-color: #F2F2F2;
     color: black;
     position: relative;
-    top: 1300px;
+    top: 130px;
 }
 
 h3 {
@@ -2250,8 +2064,6 @@ h3 {
     width: 1195px;
     display: flex;
     margin: 0 auto;
-    /*justify-content: center;*/
-    /*align-items: flex-start;*/
     font-size: 15px;
     font-family: 'Raleway', sans-serif;
     padding: 50px 0 100px;
