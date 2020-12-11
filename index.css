@@ -278,9 +278,9 @@ h2 {
 .mar1 {
     margin-left: 50px;
     margin-top: 30px;
-    font-weight: 900;
     margin-bottom: 40px;
     font-size: 1.15rem;
+    font-weight: bold;
 }
 
 #populaire {
@@ -552,9 +552,9 @@ a {
     text-decoration: none;
 }
     
-    /*.photography1:nth-child(1) {
+.photography1:nth-child(1) {
         order: 1;
-    }*/
+}
     
 .inscrire, .inscrire a {
     color: #0065FC;
@@ -1111,6 +1111,19 @@ footer {
     flex-direction: column;
 }
 
+header {
+    max-width: 900px;
+    margin: 0;
+    padding: 0;
+}
+
+#reser {
+    height: 50px;
+    width: 100px;
+    margin: 0px;
+    padding: 0px;
+}
+
 .photography1 {
     margin: 0px;
 }
@@ -1146,7 +1159,7 @@ ul {
     border-bottom: 4px solid #F2F2F2;
     width: 100%;
     text-align: center;
-    padding: 30px;
+    padding: 10px;
 }
 
 .principalM1:hover {
@@ -1281,6 +1294,7 @@ h2 {
 
 .filtre {
     margin-top: 15px;
+    font-weight: 100px;
 }
 
 .filtre:hover {
