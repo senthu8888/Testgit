@@ -252,7 +252,7 @@ h2 {
     margin: 10px;
 }
 
-#cadre {
+#frame {
     width: 250px;
     height: 120px;
     border-radius: 20px 20px 0 0;
@@ -484,27 +484,27 @@ footer {
 
 @media screen and (min-width: 940px) and (max-width: 1445px)
 {
-    body {
-        margin: 0;
-        padding: 0;
-        margin-left: 2%; 
-        margin-right: 2%; 
-        font-family: 'Raleway', sans-serif;
-    }
+body {
+    margin: 0;
+    padding: 0;
+    margin-left: 2%; 
+    margin-right: 2%; 
+    font-family: 'Raleway', sans-serif;
+}
     
-    header {
-        max-width: 1440px;
-        margin: auto;
-        padding: 0 2rem;
-        box-sizing: border-box;
-    }
+header {
+    max-width: 1440px;
+    margin: auto;
+    padding: 0 2rem;
+    box-sizing: border-box;
+}
     
-    #reser {
-        height: 50px;
-        width: 100px;
-        margin: 10px;
-        padding: 10px;
-    }
+#reser {
+    height: 50px;
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+}
     
     .main {
         max-width: 1440px;
@@ -747,13 +747,13 @@ footer {
         margin: 10px;
     }
     
-    #cadre {
-        width: 205px; /*250*/
-        height: 100px; /*120*/
-        border-radius: 20px 20px 0 0;
-        -o-object-fit: cover;
-        object-fit: cover;
-    }
+#frame {
+    width: 205px; /*250*/
+    height: 100px; /*120*/
+    border-radius: 20px 20px 0 0;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
     
     .AubergeCanne {
         display: flex;
@@ -1241,7 +1241,7 @@ h2 {
     width: 330px;
 }
 
-#cadre {
+#frame {
     width: 330px;
     height: 120px;
 }
