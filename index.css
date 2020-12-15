@@ -13,13 +13,6 @@ header {
     box-sizing: border-box;
 }
 
-#reser {
-    height: 50px;
-    width: 100px;
-    margin: 10px;
-    padding: 10px;
-}
-
 .main {
     max-width: 1440px;
     margin: auto;
@@ -165,7 +158,7 @@ h2 {
 }
 
 .filtre {
-    border: 2px solid rgb(236, 236, 236);
+    border: 2px solid #F2F2F2;
     padding-right: 16px;
     border-radius: 30px;
     margin-left: 30px;
@@ -183,11 +176,11 @@ h2 {
     border-radius: 100px;
     margin-right: 10px;
     color: blue;
-    background-color: #deebff;
+    background-color: #DEEBFF;
     margin-left: -2px;
     margin-top: -2px;
     margin-bottom: -2px;
-    border: 1px solid #deebff;
+    border: 1px solid #DEEBFF;
     width: 16px;
     text-align: center;
     cursor: pointer;
@@ -490,13 +483,6 @@ body {
     font-family: 'Raleway', sans-serif;
 }
     
-#reser {
-    height: 50px;
-    width: 100px;
-    margin: 10px;
-    padding: 10px;
-}
-    
 .main {
     max-width: 1440px;
     margin: auto;
@@ -545,7 +531,7 @@ a {
 }
     
 .photography1:nth-child(1) {
-        order: 1;
+    order: 1;
 }
     
 .inscrire, .inscrire a {
@@ -612,15 +598,15 @@ h2 {
     
 .searchcontain1 {
     border-radius: 10px 0px 0px 10px;
-    background-color: #f2f2f2;
+    background-color: #F2F2F2;
     font-size: 19px;
     width: 10px;
-    border: 1px solid #f2f2f2;
+    border: 1px solid #F2F2F2;
 }
     
 .searchcontain2 {
     border-radius: 0px 10px 10px 0px;
-    background-color: #0065fc;
+    background-color: #0065FC;
     color: white;
     cursor: pointer;
     width: 100px;
@@ -633,7 +619,6 @@ h2 {
     border: 1px solid #f2f2f2;
     width: 210px;
     font-size: 19px;
-
 }
 
 .fils {
@@ -649,7 +634,7 @@ h2 {
 }
     
 .filtre {
-    border: 2px solid rgb(236, 236, 236);
+    border: 2px solid #F2F2F2;
     padding-right: 16px;
     border-radius: 30px;
     margin-left: 30px;
@@ -859,12 +844,12 @@ figcaption i {
     
 .marseillebo1 {
     border-radius: 10px;
-    margin: 9px;
+    margin: 5px; /*9*/
 }
     
 .cadre2 {
-    width: 240px; /*310*/
-    height: 340px; /*410*/
+    width: 230px; /*240*310*/
+    height: 330px; /*340*410*/
     -o-object-fit: cover;
     object-fit: cover;
     border-radius: 10px 10px 0px 0px;
@@ -872,7 +857,7 @@ figcaption i {
     
 .act3 {
     align-items: center;
-    margin-left: 12px;
+    margin-left: 6px;
     font-weight: bold;
 }
     
@@ -890,8 +875,8 @@ figcaption i {
 }
     
 .cadre3 {
-    width: 300px; /*320*/
-    height: 160px; /*180*/
+    width: 290px; /*300*320*/
+    height: 150px; /*160*180*/
     -o-object-fit: cover;
     object-fit: cover;
     border-radius: 10px 10px 0 0;
@@ -905,8 +890,8 @@ figcaption i {
 }
     
 .cadre4 {
-    width: 300px; /*320*/
-    height: 100px; /*120*/
+    width: 290px; /*300*320*/
+    height: 110px; /*100*120*/
     -o-object-fit: cover;
     object-fit: cover;
     border-radius: 10px 10px 0 0;
@@ -968,8 +953,12 @@ footer {
 @media screen and (min-width: 600px) and (max-width: 940px)
 {
 #contain {
-    flex-direction: column;
+    flex-direction: row;
 }
+
+header {
+    display: block;
+} 
     
 .principal, .principalM {
     justify-content: center;
@@ -980,12 +969,12 @@ footer {
     list-style: none;
 }
     
-.inscription {
+.inscription, .inscription1 {
     border-top: none;
     padding-top: 0px;
 }
 
-.inscription:hover {
+.inscription:hover, .inscription1:hover {
     border-top: none;
 }
 
@@ -1024,7 +1013,7 @@ footer {
 }
 
 .filtre {
-    border: 2px solid rgb(236, 236, 236);
+    border: 2px solid #F2F2F2;
     padding-right: 16px;
     border-radius: 30px;
     margin-left: 30px;
@@ -1097,28 +1086,20 @@ footer {
 
 }
 
-@media screen and (min-width: 140px) and (max-width: 600px)
+@media screen and (min-width: 200px) and (max-width: 600px)
 {
 #contain {
     flex-direction: column;
 }
 
 header {
-    margin: auto;
+    margin: 0;
     padding: 0;
-}
-
-#reser {
-    height: 50px;
-    width: 100px;
-    margin: 0px;
-    padding: 0px;
 }
 
 .photography1 {
     margin: 0px;
 }
-
 .photography1 a {
     list-style: none;
 }
@@ -1133,7 +1114,7 @@ header {
     justify-content: space-between;
 }
 
-ul {
+#contain ul {
     padding: 0px;
 }
 
@@ -1150,7 +1131,7 @@ ul {
     border-bottom: 4px solid #F2F2F2;
     width: 100%;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
 }
 
 .principalM1:hover {
@@ -1162,9 +1143,8 @@ ul {
 }
 
 .principalM {
-    display: grid;
-    grid-template-columns: 230px 230px;
-    width: 120%;
+    display: flex;
+    justify-content: space-around;
 }
 
 .inscription, .inscription1 {
@@ -1211,6 +1191,10 @@ h2 {
 
 .searchmap {
     width: 260px;
+}
+
+.filtres {
+    font-size: 20px;
 }
 
 #EnsembleHer {
