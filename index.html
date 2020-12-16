@@ -9,8 +9,7 @@
     <title>Reservia</title>
 </head>
 <body>
-    <header>
-        <div id="contain">
+    <header id="contain">
             <div class="containM">
                 <img src="photo/Reservia.svg" alt="Reservia" title="Reservia hotel"/>
                 <ul>
@@ -24,20 +23,21 @@
                     <li class="photography1 principalM1"><a href="#activitesspecial" class="inscription">Activités</a></li>
                 </ul>
             </nav>
-        </div>
     </header>
     <main class="main">
     <section>
         <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
         <h2>En plein centre ville ou en pleine nature</h2>
         <div id="searchcontain">
-            <div class="searchcontain1"><i class="fas fa-map-marker-alt"></i></div>
-            <input type="search" class="searchmap" placeholder="Marseille,France">
+            <!--<div class="searchcontain1"><i class="fas fa-map-marker-alt"></i></div>-->
+            <label for="searchmap"><i class="fas fa-map-marker-alt"></i></label>
+            <input type="text" class="searchmap" placeholder="Marseille,France">
             <div class="searchcontain2"><span class="search">Rechercher</span><i class="fas fa-search"></i></div>
         </div>
 
-        <span class="filtres">Filtres</span>
-        <div id="filscontain"><span class="fils">Filtres</span>
+        <h1><span id="filter">Filtres</span></h1>
+        <div id="filscontain">
+            <h1>Filtres</h1>
             <div class="filtre filtreeco"><p><i class="fas fa-money-bill-wave"></i></p>Economique</div>
             <div class="filtre"><p><i class="fas fa-child"></i></p>Familial</div>
             <div class="filtre"><p><i class="fas fa-heart"></i></p>Romantique</div>
