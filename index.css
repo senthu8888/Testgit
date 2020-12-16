@@ -16,7 +16,7 @@ header {
 .main {
     max-width: 1440px;
     margin: auto;
-    padding: 0 2rem;
+    /*padding: 0 2rem;*/
     box-sizing: border-box;
 }
 
@@ -42,11 +42,6 @@ a {
 
 .containM a {
     display: none;
-}
-
-.principal {
-    justify-content: center;
-    padding-right: 80px;
 }
 
 .principalM {
@@ -91,11 +86,11 @@ a {
 }
 
 h1 {
-    font-size: 1.3rem;
+    font-size: 20px;
 }
 
 h2 {
-    font-size: 1rem;
+    font-size: 15px;
     margin-top: -10px;
     font-weight: 100;
     opacity: 0.8;
@@ -119,13 +114,13 @@ h2 {
     display: inline;
 }
 
-.searchcontain1, .searchcontain2 {
+label, .searchcontain2 {
     padding: 14px;
     font-size: 19px;
     text-align: center;
 }
 
-.searchcontain1 {
+label {
     border-radius: 10px 0px 0px 10px;
     background-color: #F2F2F2;
     font-size: 19px;
@@ -165,9 +160,10 @@ h2 {
     user-select: none;
     display: flex;
     align-items: center;
+    transition: transform 200ms ease-in-out;
 }
 
-.filtres{
+#filter {
     display: none;
 }
 
@@ -440,7 +436,7 @@ footer {
     background: #F2F2F2;
     margin-top: 0px;
     flex-wrap: wrap;
-    justify-content: center;
+    /*justify-content: center;*/
     display: flex;
     margin-left: -3%;
     margin-right: -3%;
@@ -473,166 +469,70 @@ footer {
     font-weight: bold;
 }
 
-@media screen and (min-width: 940px) and (max-width: 1445px)
+@media screen and (min-width: 940px) and (max-width: 1171px)
 {
-body {
-    margin: 0;
-    padding: 0;
-    margin-left: 3%; 
-    margin-right: 3%; 
-    font-family: 'Raleway', sans-serif;
+#EnsembleHer {
+    justify-content: center;
+}
+        
+#hebergements {
+    width: 1000px;
+    order: 2;
+    margin-top: 20px;
+}
+
+#populaire {
+    width: 1000px; /*500*/
+    order: 1;
+}    
+}
+
+@media screen and (min-width: 1171px) and (max-width: 1445px)
+{
+#EnsembleHer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
 }
     
+#hebergements {
+    width: 710px; /*880*/
+    background-color: #f2f2f2;
+    border-radius: 15px;
+}
+     
+#populaire {
+    width: 390px; /*440*/
+    background-color: #f2f2f2;
+    border-radius: 10px;
+}
+}
+
+@media screen and (min-width: 940px) and (max-width: 1445px) 
+{
 .main {
     max-width: 1440px;
     margin: auto;
-    padding: 0 2rem;
+    /*padding: 0 2rem;*/
     box-sizing: border-box;
 }
-    
-.fa-search {
-    display: none;
-    opacity: 0;
-    position: absolute;
-}
 
-a {
-    text-decoration: none;
-    color: black;
-}
-    
 #contain {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-}
-    
-.containM {
-    text-align: center;
-}
-    
-.containM a {
-    display: none;
-}
-    
-.principal {
-    justify-content: center;
-    padding-right: 10px; /*80*/
-}
-    
-.principalM {
-    display: flex;
-}
-    
-.photography1 {
-    margin: 10px;
-    list-style: none;
-    text-decoration: none;
-}
-    
-.photography1:nth-child(1) {
-    order: 1;
-}
-    
-.inscrire, .inscrire a {
-    color: #0065FC;
-}
-    
-.inscription1 {
-    color: #0065FC;
-    font-weight: bold;
-    font-size: 1.1rem;
-    padding-left: 25px;
-    padding-right: 25px;
-    border-top: 4px solid white;
-    padding-top: 42px;
-}
-    
-.inscription {
-    color:gray;
-    font-size: 1.1rem;
-    padding-left: 25px;
-    padding-right: 25px;
-    border-top: 4px solid white;
-    padding-top: 42px;
-}
-    
-.inscription:hover {
-    border-top: 2px solid #0065fc;
-}
-    
-h1 {
-    font-size: 20px; /*1.3rem*/
-}
-    
-h2 {
-    font-size: 15px; /*1rem*/
-    margin-top: -10px;
-    font-weight: 100;
-    opacity: 0.8;
-}
-    
-.star {
-    font-size: 15px; 
-    color: #0065FC;
-}
-    
-.star1 {
-    font-size: 15px; 
-    color: #F2F2F2;
-}
-    
-#searchcontain {
-    display: flex;
-}
-    
-.search {
-    display: inline;
-}
-    
-.searchcontain1, .searchcontain2 {
-    padding: 14px;
-    font-size: 19px;
-    text-align: center;
-}
-    
-.searchcontain1 {
-    border-radius: 10px 0px 0px 10px;
-    background-color: #F2F2F2;
-    font-size: 19px;
-    width: 10px;
-    border: 1px solid #F2F2F2;
-}
-    
-.searchcontain2 {
-    border-radius: 0px 10px 10px 0px;
-    background-color: #0065FC;
-    color: white;
-    cursor: pointer;
-    width: 100px;
-    border: 1px solid #0065fc;
-    user-select: none;
-}
-   
-.searchmap {
-    padding: 14px;
-    border: 1px solid #f2f2f2;
-    width: 210px;
-    font-size: 19px;
+    flex-direction: row;
 }
 
-.fils {
-    font-weight: 800;
-    font-size: 18px;  
-}
-    
 #filscontain {
     display: flex;
     margin-top: 30px;
     font-weight: 700; /*900*/
     align-items: center;
 }
-    
+
+#filter {
+    display: none;
+}
+
 .filtre {
     border: 2px solid #F2F2F2;
     padding-right: 16px;
@@ -641,10 +541,7 @@ h2 {
     user-select: none;
     display: flex;
     align-items: center;
-}
-    
-.filtres{
-    display: none;
+    transition: transform 200ms ease-in-out;
 }
     
 .filtre p {
@@ -661,7 +558,7 @@ h2 {
     text-align: center;
     cursor: pointer;
 }
-    
+
 .filtreeco p {
     padding-left: 13px;
 }
@@ -675,7 +572,7 @@ h2 {
 .filtre:hover {
     transform: scale(1.1);
 }
-    
+
 #information p {
     border: 1px solid #F2F2F2; 
     padding: 8px;
@@ -686,20 +583,7 @@ h2 {
     margin-right: 15px;
     font-size: 12px;
 }
-    
-#EnsembleHer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 30px;
-}
-    
-#hebergements {
-    width: 710px; /*880*/
-    background-color: #f2f2f2;
-    border-radius: 15px;
-}
-    
+
 #hebergements h1 {
     margin-left: 25px;
     margin-top: 40px;        
@@ -713,7 +597,7 @@ h2 {
     margin: 0px;
     box-shadow: 2px 1px 5px 2px rgb(209, 209, 209);
 }
-    
+
 .AubergeCanne1 {
     border-radius: 20px;
     margin: 10px;
@@ -726,7 +610,7 @@ h2 {
     -o-object-fit: cover;
     object-fit: cover;
 }
-    
+
 .AubergeCanne {
     display: flex;
     flex-wrap: wrap;
@@ -738,7 +622,7 @@ h2 {
     margin-bottom: 5px;
     margin-left: 10px;
 }
-    
+
 .AubCan1 {
     margin-top: 23px;
 }
@@ -750,13 +634,7 @@ h2 {
     margin-bottom: 40px;
     font-size: 1.15rem;
 }
-    
-#populaire {
-    width: 390px; /*440*/
-    background-color: #f2f2f2;
-    border-radius: 10px;
-}
-    
+
 #populaire h1 {
     margin-left: 30px;
     margin-right: 21px;
@@ -764,7 +642,7 @@ h2 {
     display: flex;
     justify-content: space-between;
 }
-   
+
 .auba1 {
     margin-top: 20px;
     margin-left: 30px;
@@ -775,7 +653,7 @@ h2 {
     border-radius: 10px 10px 10px 10px;
     box-shadow: 2px 1px 5px 2px rgb(209, 209, 209);
 }
-    
+
 .hotelsoleil1 {
     margin: 10px;
     border-radius: 10px;
@@ -788,7 +666,7 @@ h2 {
     -o-object-fit: cover;
     object-fit: cover;
 }
-    
+
 .auba1 i {
     margin-top: 30px;
 }
@@ -799,7 +677,7 @@ h2 {
     margin-left: 20px;
     margin-right: 30px;
 }
-    
+
 .act2 {
     margin-left: 24px;
     width: 160px;
@@ -812,7 +690,7 @@ h2 {
 .HotSol1 {
     margin-top: -10px;
 }
-    
+
 figcaption i {
     color: #0065fc;
 }
@@ -825,7 +703,7 @@ figcaption i {
 #activitesspecial {
     margin-top: 30px;
 }
-    
+
 .marseillebo {
     display: flex;
     flex-wrap: wrap;
@@ -841,15 +719,15 @@ figcaption i {
     margin-top: 13px;
     margin: 0;
 }
-    
+
 .marseillebo1 {
     border-radius: 10px;
     margin: 5px; /*9*/
 }
     
 .cadre2 {
-    width: 230px; /*240*310*/
-    height: 330px; /*340*410*/
+    width: 260px; /*240*310*/
+    height: 360px; /*340*410*/
     -o-object-fit: cover;
     object-fit: cover;
     border-radius: 10px 10px 0px 0px;
@@ -860,7 +738,7 @@ figcaption i {
     margin-left: 6px;
     font-weight: bold;
 }
-    
+
 .marseillebo2 {
     display: flex;
     flex-direction: column;
@@ -881,7 +759,7 @@ figcaption i {
     object-fit: cover;
     border-radius: 10px 10px 0 0;
 }
-    
+
 .auba4 {
     background-color: white;
     border-radius: 20px;
@@ -903,7 +781,7 @@ figcaption i {
     border: 1px solid #f2f2f2;
     margin: 0;
 }
-    
+
 .cadre5 {
     width: 300px; /*320*/
     height: 131px; /*151*/
@@ -911,15 +789,13 @@ figcaption i {
     object-fit: cover;
     border-radius: 10px 10px 0 0;
 }
-    
+
+/*Footer*/    
 footer {
     background: #F2F2F2;
     margin-top: 0px;
     flex-wrap: wrap;
-    justify-content: center;
     display: flex;
-    margin-left: -3%;
-    margin-right: -3%;
 }
     
 #contenufooter1 a:hover, #contenufooter2 a:hover,
@@ -950,6 +826,38 @@ footer {
 }
 }
 
+@media screen and (min-width: 939px) and (max-width: 1214px) {
+#activitesspecial h1 {
+    text-align: center;
+}
+
+.marseillebo {
+    justify-content: center;
+}
+    
+.auba3 {
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid #F2F2F2;
+    margin: 0;
+}
+    
+.cadre3 {
+    height: 151px;
+}
+
+.cadre4 {
+    height: 151px;
+}
+
+.act3 {
+    align-items: center;
+    margin-left: 0px;
+    font-weight: bold;
+    text-align: center;
+}
+}
+
 @media screen and (min-width: 600px) and (max-width: 940px)
 {
 #contain {
@@ -962,7 +870,7 @@ header {
     
 .principal, .principalM {
     justify-content: center;
-    padding-right: 80px;
+    /*padding-right: 80px;*/
 }
 
 .photography1 {
@@ -989,7 +897,7 @@ header {
 }
 
 #populaire {
-    width: 500px;
+    width: 1000px; /*500*/
     order: 1;
 }
 
@@ -1001,15 +909,12 @@ header {
     margin-left: -30px;
 }
 
-.fils {
-    display: none;
+#filter {
+    display: inline-block;
 }
 
-.filtres{
-    display: inline-block;
-    margin-top: 15px;
-    font-weight: 900;
-    margin-left: 4px;
+#filscontain h1 {
+    display: none;
 }
 
 .filtre {
@@ -1072,17 +977,28 @@ footer {
     flex-wrap: wrap;
     display: flex;
     flex-direction: column;
-    margin-left: -3%;
-    margin-right: -3%;
 }
 
-#contenufooter2 ul {
+
+#contenufooter1 ul, #contenufooter2 ul,
+#contenufooter3 ul {
     margin-left: 0px;
+
+/*#contenufooter2 ul, #contenufooter3 ul  {
+    margin-left: 0px;*/
+}
+
+/*#contenufooter2 ul {
+    margin-left: 230px;
+    flex-wrap: wrap;
+    display: flex;
 }
 
 #contenufooter3 ul {
-    margin-left: 0px;
-}
+    margin-left: 300px;
+    flex-wrap: wrap;
+    display: flex;
+}*/
 
 }
 
@@ -1190,11 +1106,7 @@ h2 {
 }
 
 .searchmap {
-    width: 260px;
-}
-
-.filtres {
-    font-size: 20px;
+    width: 245px; /*260*/
 }
 
 #EnsembleHer {
@@ -1206,6 +1118,7 @@ h2 {
     margin-left: -3%;
     margin-right: -3%;
     background-color: white;
+    width: 1000px;
 }
 
 #hebergements h1 {
@@ -1217,15 +1130,18 @@ h2 {
     order: 1;
     margin-left: -3%;
     margin-right: -3%;
+    width: 1000px;
 }
 
 .auba {
     width: 330px;
+    order: 1;
 }
 
 .cadre {
     width: 330px;
     height: 120px;
+
 }
 
 .AubergeCanne {
@@ -1253,24 +1169,18 @@ h2 {
     margin-left: -30px;
 }
 
-.fils {
-    display: none;
+
+#filter {
+    display: inline-block;
 }
 
-.filtres {
-    display: inline-block;
-    margin-top: 15px;
-    font-weight: 900;
-    margin-left: 4px;
+#filscontain h1 {
+    display: none;
 }
 
 .filtre {
     margin-top: 15px;
     font-weight: 100px;
-}
-
-.filtre:hover {
-    transform: none;
 }
 
 .mar1 {
@@ -1301,19 +1211,32 @@ h2 {
     width: 330px;
     height: 180px;
 }
-    
+
 footer {
     background: #F2F2F2;
     margin-top: 0px;
     flex-wrap: wrap;
     display: flex;
     flex-direction: column;
-    margin-left: -3%;
-    margin-right: -3%;
 }
 
 #contenufooter1 ul, #contenufooter2 ul,
 #contenufooter3 ul {
-    margin-left: 20px;
+    margin-left: 0px;
+}
+}
+
+@media screen and (min-width: 940px) and (max-width: 1160px) {
+footer {
+    background: #F2F2F2;
+    margin-top: 0px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+}
+    
+#contenufooter1 ul, #contenufooter2 ul,
+#contenufooter3 ul {
+    margin-left: 0px;
 }
 }
