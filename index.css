@@ -16,7 +16,6 @@ header {
 .main {
     max-width: 1440px;
     margin: auto;
-    /*padding: 0 2rem;*/
     box-sizing: border-box;
 }
 
@@ -36,25 +35,25 @@ a {
     margin-top: 20px;
 }
 
-.containM{
+.introduction {
     text-align: center;
 }
 
-.containM a {
+.introduction a {
     display: none;
 }
 
-.principalM {
+.secondaire {
     display: flex;
 }
 
-.photography1 {
+.selection {
     margin: 10px;
     list-style: none;
     text-decoration: none;
 }
 
-.photography1:nth-child(1) {
+.selection:nth-child(1) {
     order: 1;
 }
 
@@ -101,7 +100,7 @@ h2 {
     color: #0065FC;
 }
 
-.star1 {
+.neutre {
     font-size: 15px; 
     color: #F2F2F2;
 }
@@ -114,7 +113,7 @@ h2 {
     display: inline;
 }
 
-label, .searchcontain2 {
+label, .point_search {
     padding: 14px;
     font-size: 19px;
     text-align: center;
@@ -128,7 +127,7 @@ label {
     border: 1px solid #F2F2F2;
 }
 
-.searchcontain2 {
+.point_search {
     border-radius: 0px 10px 10px 0px;
     background-color: #0065FC;
     color: white;
@@ -234,12 +233,12 @@ label {
     box-shadow: 2px 1px 5px 2px #F2F2F2;
 }
 
-.AubergeCanne1 {
+.Canne {
     border-radius: 20px;
     margin: 10px;
 }
 
-.cadre {
+.cadre_hebergement {
     width: 250px;
     height: 120px;
     border-radius: 20px 20px 0 0;
@@ -253,17 +252,17 @@ label {
     justify-content: space-evenly;
 }
 
-.act {
+.act_hebergement {
     line-height: 5px;
     margin-bottom: 5px;
     margin-left: 10px;
 }
 
-.AubCan1 {
+.AubStar {
     margin-top: 23px;
 }
 
-.mar1 {
+.affichage {
     margin-left: 50px;
     margin-top: 30px;
     margin-bottom: 40px;
@@ -285,7 +284,7 @@ label {
     justify-content: space-between;
 }
 
-.auba1 {
+.popu {
     margin-top: 20px;
     margin-left: 30px;
     margin: 0;
@@ -296,12 +295,12 @@ label {
     box-shadow: 2px 1px 5px 2px rgb(209, 209, 209);
 }
 
-.hotelsoleil1 {
+.soleil {
     margin: 10px;
     border-radius: 10px;
 }
 
-.cadre1 {
+.cadre_populaire {
     width: 130px;
     height: 150px;
     border-radius: 10px 0px 0px 10px;
@@ -309,7 +308,7 @@ label {
     object-fit: cover;
 }
 
-.auba1 i {
+.popu i {
     margin-top: 30px;
 }
 
@@ -320,7 +319,7 @@ label {
     margin-right: 30px;
 }
 
-.act2 {
+.act_populaire {
     margin-left: 24px;
     width: 160px;
 }
@@ -329,7 +328,7 @@ label {
     margin-top: 10px;
 }
 
-.HotSol1 {
+.HotStar {
     margin-top: -10px;
 }
 
@@ -354,7 +353,7 @@ figcaption i {
     margin-right: -10px;
 }
 
-.auba2 {
+.acti {
     background-color: white;
     border-radius: 20px;
     border: 1px solid #F2F2F2;
@@ -362,12 +361,12 @@ figcaption i {
     margin: 0;
 }
 
-.marseillebo1 {
+.city {
     border-radius: 10px;
     margin: 10px;
 }
 
-.cadre2 {
+.cadre_activites {
     width: 310px;
     height: 410px;
     -o-object-fit: cover;
@@ -375,26 +374,26 @@ figcaption i {
     border-radius: 10px 10px 0px 0px;
 }
 
-.act3 {
+.act_activites {
     align-items: center;
     margin-left: 30px;
     font-weight: bold;
 }
 
-.marseillebo2 {
+.ville {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.auba3 {
+.acti_larger {
     background-color: white;
     border-radius: 20px;
     border: 1px solid #F2F2F2;
     margin: 0;
 }
 
-.cadre3 {
+.cadre_larger {
     width: 320px;
     height: 180px;
     -o-object-fit: cover;
@@ -402,14 +401,14 @@ figcaption i {
     border-radius: 10px 10px 0 0;
 }
 
-.auba4 {
+.acti_small {
     background-color: white;
     border-radius: 20px;
     border: 1px solid #F2F2F2;
     margin: 0;
 }
 
-.cadre4 {
+.cadre_small {
     width: 320px;
     height: 120px;
     -o-object-fit: cover;
@@ -417,14 +416,14 @@ figcaption i {
     border-radius: 10px 10px 0 0;
 }
 
-.auba5 {
+.acti_normal {
     background-color: white;
     border-radius: 20px;
     border: 1px solid #F2F2F2;
     margin: 0;
 }
 
-.cadre5 {
+.cadre_normal {
     width: 320px;
     height: 151px;
     -o-object-fit: cover;
@@ -436,19 +435,19 @@ footer {
     background: #F2F2F2;
     margin-top: 0px;
     flex-wrap: wrap;
-    /*justify-content: center;*/
+    justify-content: start;
     display: flex;
     margin-left: -3%;
-    margin-right: -3%;
+    margin-right: -3%; 
 }
 
-#contenufooter1 a:hover, #contenufooter2 a:hover,
-#contenufooter3 a:hover {
+#propos a:hover, #sejour a:hover,
+#assistance a:hover {
     text-decoration: underline;
 }
 
-#contenufooter1 ul, #contenufooter2 ul,
-#contenufooter3 ul {
+#propos ul, #sejour ul,
+#assistance ul {
     list-style: none;
     line-height: 30px;
     display: flex;
@@ -457,11 +456,11 @@ footer {
     margin-bottom: 30px;
 }
 
-#contenufooter2 ul {
+#sejour ul {
     margin-left: 230px;
 }
 
-#contenufooter3 ul {
+#assistance ul {
     margin-left: 300px;
 }
 
@@ -469,52 +468,11 @@ footer {
     font-weight: bold;
 }
 
-@media screen and (min-width: 940px) and (max-width: 1171px)
-{
-#EnsembleHer {
-    justify-content: center;
-}
-        
-#hebergements {
-    width: 1000px;
-    order: 2;
-    margin-top: 20px;
-}
-
-#populaire {
-    width: 1000px; /*500*/
-    order: 1;
-}    
-}
-
-@media screen and (min-width: 1171px) and (max-width: 1445px)
-{
-#EnsembleHer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 30px;
-}
-    
-#hebergements {
-    width: 710px; /*880*/
-    background-color: #f2f2f2;
-    border-radius: 15px;
-}
-     
-#populaire {
-    width: 390px; /*440*/
-    background-color: #f2f2f2;
-    border-radius: 10px;
-}
-}
-
 @media screen and (min-width: 940px) and (max-width: 1445px) 
 {
 .main {
     max-width: 1440px;
     margin: auto;
-    /*padding: 0 2rem;*/
     box-sizing: border-box;
 }
 
@@ -598,12 +556,12 @@ footer {
     box-shadow: 2px 1px 5px 2px rgb(209, 209, 209);
 }
 
-.AubergeCanne1 {
+.Canne {
     border-radius: 20px;
     margin: 10px;
 }
     
-.cadre {
+.cadre_hebergement {
     width: 205px; /*250*/
     height: 100px; /*120*/
     border-radius: 20px 20px 0 0;
@@ -617,17 +575,17 @@ footer {
     justify-content: space-evenly;
 }
     
-.act {
+.act_hebergement {
     line-height: 5px;
     margin-bottom: 5px;
     margin-left: 10px;
 }
 
-.AubCan1 {
+.AubStar {
     margin-top: 23px;
 }
     
-.mar1 {
+.affichage {
     margin-left: 50px;
     margin-top: 30px;
     font-weight: 900;
@@ -643,7 +601,7 @@ footer {
     justify-content: space-between;
 }
 
-.auba1 {
+.popu {
     margin-top: 20px;
     margin-left: 30px;
     margin: 0;
@@ -654,12 +612,12 @@ footer {
     box-shadow: 2px 1px 5px 2px rgb(209, 209, 209);
 }
 
-.hotelsoleil1 {
+.soleil {
     margin: 10px;
     border-radius: 10px;
 }
     
-.cadre1 {
+.cadre_populaire {
     width: 100px; /*130*/
     height: 120px; /*150*/
     border-radius: 10px 0px 0px 10px;
@@ -667,7 +625,7 @@ footer {
     object-fit: cover;
 }
 
-.auba1 i {
+.popu i {
     margin-top: 30px;
 }
     
@@ -678,7 +636,7 @@ footer {
     margin-right: 30px;
 }
 
-.act2 {
+.act_populaire {
     margin-left: 24px;
     width: 160px;
 }
@@ -687,7 +645,7 @@ footer {
     margin-top: 10px;
 }
     
-.HotSol1 {
+.HotStar {
     margin-top: -10px;
 }
 
@@ -712,7 +670,7 @@ figcaption i {
     margin-right: -10px;
 }
    
-.auba2 {
+.acti {
     background-color: white;
     border-radius: 20px;
     border: 1px solid #F2F2F2;
@@ -720,12 +678,12 @@ figcaption i {
     margin: 0;
 }
 
-.marseillebo1 {
+.city {
     border-radius: 10px;
     margin: 5px; /*9*/
 }
     
-.cadre2 {
+.cadre_activites {
     width: 260px; /*240*310*/
     height: 360px; /*340*410*/
     -o-object-fit: cover;
@@ -733,26 +691,26 @@ figcaption i {
     border-radius: 10px 10px 0px 0px;
 }
     
-.act3 {
+.act_activites {
     align-items: center;
     margin-left: 6px;
     font-weight: bold;
 }
 
-.marseillebo2 {
+.ville {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
     
-.auba3 {
+.acti_larger {
     background-color: white;
     border-radius: 20px;
     border: 1px solid #f2f2f2;
     margin: 0;
 }
     
-.cadre3 {
+.cadre_larger {
     width: 290px; /*300*320*/
     height: 150px; /*160*180*/
     -o-object-fit: cover;
@@ -760,14 +718,14 @@ figcaption i {
     border-radius: 10px 10px 0 0;
 }
 
-.auba4 {
+.acti_small {
     background-color: white;
     border-radius: 20px;
     border: 1px solid #f2f2f2;
     margin: 0;
 }
     
-.cadre4 {
+.cadre_small {
     width: 290px; /*300*320*/
     height: 110px; /*100*120*/
     -o-object-fit: cover;
@@ -775,36 +733,77 @@ figcaption i {
     border-radius: 10px 10px 0 0;
 }
     
-.auba5 {
+.acti_normal {
     background-color: white;
     border-radius: 20px;
     border: 1px solid #f2f2f2;
     margin: 0;
 }
 
-.cadre5 {
+.cadre_normal {
     width: 300px; /*320*/
     height: 131px; /*151*/
     -o-object-fit: cover;
     object-fit: cover;
     border-radius: 10px 10px 0 0;
 }
+}
 
-/*Footer*/    
+/*Bloc Hebergement + Populaire (940 - 1445)*/
+@media screen and (min-width: 940px) and (max-width: 1171px)
+{
+#EnsembleHer {
+    justify-content: center;
+}
+        
+#hebergements {
+    width: 1000px;
+    order: 2;
+    margin-top: 20px;
+}
+
+#populaire {
+    width: 1000px;
+    order: 1;
+}    
+}
+
+@media screen and (min-width: 1171px) and (max-width: 1445px)
+{
+#EnsembleHer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+    
+#hebergements {
+    width: 710px;
+    background-color: #f2f2f2;
+    border-radius: 15px;
+}
+     
+#populaire {
+    width: 390px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+}
+}
+/*Fin Bloc Hebergement + Populaire (940 - 1445)*/
+
+/*Bloc Footer (940 - 1445)*/
+@media screen and (min-width: 940px) and (max-width: 1160px) {
 footer {
     background: #F2F2F2;
     margin-top: 0px;
     flex-wrap: wrap;
+    justify-content: space-evenly;
     display: flex;
+    margin-left: -3%;
+    margin-right: -3%; 
 }
-    
-#contenufooter1 a:hover, #contenufooter2 a:hover,
-#contenufooter3 a:hover {
-    text-decoration: underline;
-}
-    
-#contenufooter1 ul, #contenufooter2 ul,
-#contenufooter3 ul {
+
+#propos ul, #sejour ul, #assistance ul {
     list-style: none;
     line-height: 30px;
     display: flex;
@@ -812,20 +811,15 @@ footer {
     margin-top: 30px;
     margin-bottom: 30px;
 }
-
-#contenufooter2 ul {
-    margin-left: 230px;
-}
-
-#contenufooter3 ul {
-    margin-left: 300px;
-}
-
-.contenutitle {
-    font-weight: bold;
+    
+#sejour ul, #assistance ul {
+        margin-left: 0px;
 }
 }
+/*Fin Bloc Footer (940 - 1445)*/
 
+
+/*Bloc Activites Marseille*/
 @media screen and (min-width: 939px) and (max-width: 1214px) {
 #activitesspecial h1 {
     text-align: center;
@@ -835,45 +829,41 @@ footer {
     justify-content: center;
 }
     
-.auba3 {
+.acti_larger {
     background-color: white;
     border-radius: 20px;
     border: 1px solid #F2F2F2;
     margin: 0;
 }
     
-.cadre3 {
+.cadre_larger {
     height: 151px;
 }
 
-.cadre4 {
+.cadre_small {
     height: 151px;
 }
 
-.act3 {
+.act_activites {
     align-items: center;
     margin-left: 0px;
     font-weight: bold;
     text-align: center;
 }
 }
+/*Fin Bloc Activites Marseille*/
 
 @media screen and (min-width: 600px) and (max-width: 940px)
 {
-#contain {
-    flex-direction: row;
-}
-
 header {
     display: block;
 } 
     
-.principal, .principalM {
+.principal, .secondaire {
     justify-content: center;
-    /*padding-right: 80px;*/
 }
 
-.photography1 {
+.selection {
     list-style: none;
 }
     
@@ -949,22 +939,22 @@ header {
     justify-content: center;
 }
     
-.auba3 {
+.acti_larger {
     background-color: white;
     border-radius: 20px;
     border: 1px solid #F2F2F2;
     margin: 0;
 }
     
-.cadre3 {
+.cadre_larger {
+    height: 151px; 
+}
+
+.cadre_small {
     height: 151px;
 }
 
-.cadre4 {
-    height: 151px;
-}
-
-.act3 {
+.act_activites {
     align-items: center;
     margin-left: 0px;
     font-weight: bold;
@@ -975,32 +965,42 @@ footer {
     background: #F2F2F2;
     margin-top: 0px;
     flex-wrap: wrap;
+    justify-content: space-evenly;
     display: flex;
-    flex-direction: column;
+    margin-left: -3%;
+    margin-right: -3%; 
 }
 
-
-#contenufooter1 ul, #contenufooter2 ul,
-#contenufooter3 ul {
+#propos ul, #sejour ul, #assistance ul {
     margin-left: 0px;
-
-/*#contenufooter2 ul, #contenufooter3 ul  {
-    margin-left: 0px;*/
+}
 }
 
-/*#contenufooter2 ul {
-    margin-left: 230px;
-    flex-wrap: wrap;
-    display: flex;
+/*Bloc Header (660 - 940)*/
+@media screen and (min-width: 665px) and (max-width: 940px)
+{
+    #contain {
+        flex-direction: row;
+    }
 }
 
-#contenufooter3 ul {
-    margin-left: 300px;
-    flex-wrap: wrap;
-    display: flex;
-}*/
-
+@media screen and (min-width: 600px) and (max-width: 665px)
+{
+    #contain {
+        flex-direction: column;
+    }
 }
+/*Fin Bloc Header (660 - 940)*/
+
+/*Bloc activités cadre (660 - 940)*/
+@media screen and (min-width: 600px) and (max-width: 695px) {
+.cadre_activites, .cadre_larger, 
+.cadre_small, .cadre_normal {
+    width: 330px;
+    height: 180px;
+}
+}
+/*Fin Bloc Header (660 - 940)*/
 
 @media screen and (min-width: 200px) and (max-width: 600px)
 {
@@ -1013,10 +1013,10 @@ header {
     padding: 0;
 }
 
-.photography1 {
+.selection {
     margin: 0px;
 }
-.photography1 a {
+.selection a {
     list-style: none;
 }
 
@@ -1025,7 +1025,7 @@ header {
     margin-right: -3%;
 }
 
-.containM {
+.introduction {
     display: flex;
     justify-content: space-between;
 }
@@ -1034,7 +1034,7 @@ header {
     padding: 0px;
 }
 
-.containM a {
+.introduction a {
     display: inline-block;
     padding: 0px;
     border: none;
@@ -1043,22 +1043,22 @@ header {
     color: #0065FC;    
 }
 
-.principalM1 {
+.troisieme {
     border-bottom: 4px solid #F2F2F2;
     width: 100%;
     text-align: center;
     padding: 20px;
 }
 
-.principalM1:hover {
+.troisieme:hover {
     border-bottom: 4px solid #0065FC;
 }
 
-.principalM1 a:hover{
+.troisieme a:hover{
     color: #0065FC;  
 }
 
-.principalM {
+.secondaire {
     display: flex;
     justify-content: space-around;
 }
@@ -1099,7 +1099,7 @@ h2 {
     position: relative;
 }
 
-.searchcontain2 {
+.point_search {
     border-radius: 0px 10px 10px 0px;
     width: 25px;
     margin-left: -15px;
@@ -1138,10 +1138,9 @@ h2 {
     order: 1;
 }
 
-.cadre {
+.cadre_hebergement {
     width: 330px;
     height: 120px;
-
 }
 
 .AubergeCanne {
@@ -1156,7 +1155,7 @@ h2 {
     margin-right: 0px;
 }
 
-.act2 {
+.act_populaire {
     margin-left: 5px;
     width: 154px;
     font-size: 12px;
@@ -1168,7 +1167,6 @@ h2 {
     flex-wrap: wrap;
     margin-left: -30px;
 }
-
 
 #filter {
     display: inline-block;
@@ -1183,7 +1181,7 @@ h2 {
     font-weight: 100px;
 }
 
-.mar1 {
+.affichage {
     margin-left: 16px;
 }
 
@@ -1202,12 +1200,13 @@ h2 {
     margin-left: -14px;
 }
 
-.marseillebo1 {
+.city {
     border-radius: 10px;
     margin: 10px;
 }
 
-.cadre2, .cadre3, .cadre4, .cadre5 {
+.cadre_activites, .cadre_larger, 
+.cadre_small, .cadre_normal {
     width: 330px;
     height: 180px;
 }
@@ -1220,23 +1219,8 @@ footer {
     flex-direction: column;
 }
 
-#contenufooter1 ul, #contenufooter2 ul,
-#contenufooter3 ul {
+#propos ul, #sejour ul, #assistance ul {
     margin-left: 0px;
 }
 }
 
-@media screen and (min-width: 940px) and (max-width: 1160px) {
-footer {
-    background: #F2F2F2;
-    margin-top: 0px;
-    flex-wrap: wrap;
-    display: flex;
-    flex-direction: column;
-}
-    
-#contenufooter1 ul, #contenufooter2 ul,
-#contenufooter3 ul {
-    margin-left: 0px;
-}
-}
