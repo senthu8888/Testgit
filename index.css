@@ -1212,5 +1212,6 @@ footer {
 
 #propos ul, #sejour ul, #assistance ul {
     margin-left: 0px;
+    padding-inline-start: 10px;
 }
 }
