@@ -433,7 +433,7 @@ figcaption i {
 
 footer {
     background: #F2F2F2;
-    margin-top: 0px;
+    margin-top: 40px;
     flex-wrap: wrap;
     justify-content: start;
     display: flex;
@@ -795,7 +795,7 @@ figcaption i {
 @media screen and (min-width: 940px) and (max-width: 1160px) {
 footer {
     background: #F2F2F2;
-    margin-top: 0px;
+    margin-top: 40px;
     flex-wrap: wrap;
     justify-content: space-evenly;
     display: flex;
@@ -885,7 +885,7 @@ header {
     order: 2;
     margin-top: 20px;
 }
-
+  
 #populaire {
     width: 1000px; /*500*/
     order: 1;
@@ -956,14 +956,16 @@ header {
 
 .act_activites {
     align-items: center;
-    margin-left: 0px;
+    /*margin-left: 0px;*/
     font-weight: bold;
-    text-align: center;
+    /*text-align: center;*/
+    text-align: left;
+    margin-left: 30px;
 }
 
 footer {
     background: #F2F2F2;
-    margin-top: 0px;
+    margin-top: 40px;
     flex-wrap: wrap;
     justify-content: space-evenly;
     display: flex;
@@ -993,10 +995,11 @@ footer {
 /*Fin Bloc Header (660 - 940)*/
 
 /*Bloc activités cadre (660 - 940)*/
-@media screen and (min-width: 600px) and (max-width: 695px) {
+@media screen and (min-width: 600px) and (max-width: 696px) {
 .cadre_activites, .cadre_larger, 
 .cadre_small, .cadre_normal {
-    width: 330px;
+    /*width: 330px;*/
+    width: calc(100% - 0px);
     height: 180px;
 }
 }
@@ -1134,12 +1137,14 @@ h2 {
 }
 
 .auba {
-    width: 330px;
+    /*width: 530px;*/
+    width: calc(100% - 30px);
     order: 1;
 }
 
 .cadre_hebergement {
-    width: 330px;
+    /*width: 530px;*/
+    width: calc(100% - 0px);
     height: 120px;
 }
 
@@ -1207,13 +1212,14 @@ h2 {
 
 .cadre_activites, .cadre_larger, 
 .cadre_small, .cadre_normal {
-    width: 330px;
+    /*width: 330px;*/
+    width: calc(100% - 0px);
     height: 180px;
 }
 
 footer {
     background: #F2F2F2;
-    margin-top: 0px;
+    margin-top: 40px;
     flex-wrap: wrap;
     display: flex;
     flex-direction: column;
@@ -1223,4 +1229,3 @@ footer {
     margin-left: 0px;
 }
 }
-
