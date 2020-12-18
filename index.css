@@ -1097,7 +1097,7 @@ h2 {
 }
 
 .searchmap {
-    width: 245px;
+    width: 200px;
 }
 
 #EnsembleHer {
@@ -1125,7 +1125,7 @@ h2 {
 }
 
 .auba {
-    width: calc(100% - 30px);
+    width: calc(100% - 10px);
     order: 1;
 }
 
