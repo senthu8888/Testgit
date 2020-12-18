@@ -483,7 +483,7 @@ footer {
 #filscontain {
     display: flex;
     margin-top: 30px;
-    font-weight: 700; /*900*/
+    font-weight: 700;
     align-items: center;
 }
 
@@ -548,7 +548,7 @@ footer {
 }
 
 .auba {
-    width: 205px; /*250*/
+    width: 205px;
     padding: 4px;
     background-color: white;
     border-radius: 20px;
@@ -562,8 +562,8 @@ footer {
 }
     
 .cadre_hebergement {
-    width: 205px; /*250*/
-    height: 100px; /*120*/
+    width: 205px;
+    height: 100px;
     border-radius: 20px 20px 0 0;
     -o-object-fit: cover;
     object-fit: cover;
@@ -618,8 +618,8 @@ footer {
 }
     
 .cadre_populaire {
-    width: 100px; /*130*/
-    height: 120px; /*150*/
+    width: 100px;
+    height: 120px;
     border-radius: 10px 0px 0px 10px;
     -o-object-fit: cover;
     object-fit: cover;
@@ -680,12 +680,12 @@ figcaption i {
 
 .city {
     border-radius: 10px;
-    margin: 5px; /*9*/
+    margin: 5px;
 }
     
 .cadre_activites {
-    width: 260px; /*240*310*/
-    height: 360px; /*340*410*/
+    width: 260px;
+    height: 360px;
     -o-object-fit: cover;
     object-fit: cover;
     border-radius: 10px 10px 0px 0px;
@@ -711,8 +711,8 @@ figcaption i {
 }
     
 .cadre_larger {
-    width: 290px; /*300*320*/
-    height: 150px; /*160*180*/
+    width: 290px;
+    height: 150px;
     -o-object-fit: cover;
     object-fit: cover;
     border-radius: 10px 10px 0 0;
@@ -726,8 +726,8 @@ figcaption i {
 }
     
 .cadre_small {
-    width: 290px; /*300*320*/
-    height: 110px; /*100*120*/
+    width: 290px;
+    height: 110px;
     -o-object-fit: cover;
     object-fit: cover;
     border-radius: 10px 10px 0 0;
@@ -741,8 +741,8 @@ figcaption i {
 }
 
 .cadre_normal {
-    width: 300px; /*320*/
-    height: 131px; /*151*/
+    width: 300px;
+    height: 131px;
     -o-object-fit: cover;
     object-fit: cover;
     border-radius: 10px 10px 0 0;
@@ -818,7 +818,6 @@ footer {
 }
 /*Fin Bloc Footer (940 - 1445)*/
 
-
 /*Bloc Activites Marseille*/
 @media screen and (min-width: 939px) and (max-width: 1214px) {
 #activitesspecial h1 {
@@ -836,11 +835,7 @@ footer {
     margin: 0;
 }
     
-.cadre_larger {
-    height: 151px;
-}
-
-.cadre_small {
+.cadre_larger, .cadre_small {
     height: 151px;
 }
 
@@ -887,7 +882,7 @@ header {
 }
   
 #populaire {
-    width: 1000px; /*500*/
+    width: 1000px;
     order: 1;
 }
 
@@ -946,19 +941,13 @@ header {
     margin: 0;
 }
     
-.cadre_larger {
+.cadre_larger, .cadre_small {
     height: 151px; 
-}
-
-.cadre_small {
-    height: 151px;
 }
 
 .act_activites {
     align-items: center;
-    /*margin-left: 0px;*/
     font-weight: bold;
-    /*text-align: center;*/
     text-align: left;
     margin-left: 30px;
 }
@@ -981,16 +970,16 @@ footer {
 /*Bloc Header (660 - 940)*/
 @media screen and (min-width: 665px) and (max-width: 940px)
 {
-    #contain {
-        flex-direction: row;
-    }
+#contain {
+    flex-direction: row;
+}
 }
 
 @media screen and (min-width: 600px) and (max-width: 665px)
 {
-    #contain {
-        flex-direction: column;
-    }
+#contain {
+    flex-direction: column;
+}
 }
 /*Fin Bloc Header (660 - 940)*/
 
@@ -998,7 +987,6 @@ footer {
 @media screen and (min-width: 600px) and (max-width: 696px) {
 .cadre_activites, .cadre_larger, 
 .cadre_small, .cadre_normal {
-    /*width: 330px;*/
     width: calc(100% - 0px);
     height: 180px;
 }
@@ -1109,7 +1097,7 @@ h2 {
 }
 
 .searchmap {
-    width: 245px; /*260*/
+    width: 245px;
 }
 
 #EnsembleHer {
@@ -1137,13 +1125,11 @@ h2 {
 }
 
 .auba {
-    /*width: 530px;*/
     width: calc(100% - 30px);
     order: 1;
 }
 
 .cadre_hebergement {
-    /*width: 530px;*/
     width: calc(100% - 0px);
     height: 120px;
 }
@@ -1212,7 +1198,6 @@ h2 {
 
 .cadre_activites, .cadre_larger, 
 .cadre_small, .cadre_normal {
-    /*width: 330px;*/
     width: calc(100% - 0px);
     height: 180px;
 }
