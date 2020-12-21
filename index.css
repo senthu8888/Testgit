@@ -621,13 +621,13 @@ footer {
     
 #hebergements {
     width: 710px;
-    background-color: #f2f2f2;
+    background-color: #F2F2F2;
     border-radius: 15px;
 }
      
 #populaire {
     width: 390px;
-    background-color: #f2f2f2;
+    background-color: #F2F2F2;
     border-radius: 10px;
 }
 }
@@ -678,14 +678,14 @@ footer {
 }
     
 .cadre_larger, .cadre_small {
-    height: 151px;
+    height: 141px;
 }
 
 .act_activites {
     align-items: center;
-    margin-left: 0px;
+    margin-left: 20px;
     font-weight: bold;
-    text-align: center;
+    text-align: left;
 }
 }
 /*Fin Bloc Activites Marseille*/
