@@ -64,6 +64,7 @@ a {
 .inscription1 {
     color: #0065FC;
     font-size: 1.1rem;
+    font-weight: bold;
     padding-left: 25px;
     padding-right: 25px;
     border-top: 4px solid white;
@@ -82,6 +83,7 @@ a {
 
 .inscription:hover {
     border-top: 2px solid #0065FC;
+    color: #0065FC;
 }
 
 h1 {
@@ -359,6 +361,7 @@ figcaption i {
     border: 1px solid #F2F2F2;
     margin-top: 13px;
     margin: 0;
+    box-shadow: 2px 1px 5px 2px #F2F2F2;
 }
 
 .city {
@@ -391,6 +394,7 @@ figcaption i {
     border-radius: 20px;
     border: 1px solid #F2F2F2;
     margin: 0;
+    box-shadow: 2px 1px 5px 2px #F2F2F2;
 }
 
 .cadre_larger {
@@ -406,6 +410,7 @@ figcaption i {
     border-radius: 20px;
     border: 1px solid #F2F2F2;
     margin: 0;
+    box-shadow: 2px 1px 5px 2px #F2F2F2;
 }
 
 .cadre_small {
@@ -421,6 +426,7 @@ figcaption i {
     border-radius: 20px;
     border: 1px solid #F2F2F2;
     margin: 0;
+    box-shadow: 2px 1px 5px 2px #F2F2F2;
 }
 
 .cadre_normal {
@@ -470,12 +476,6 @@ footer {
 
 @media screen and (min-width: 940px) and (max-width: 1445px) 
 {
-.main {
-    max-width: 1440px;
-    margin: auto;
-    box-sizing: border-box;
-}
-
 #contain {
     flex-direction: row;
 }
@@ -487,66 +487,6 @@ footer {
     align-items: center;
 }
 
-#filter {
-    display: none;
-}
-
-.filtre {
-    border: 2px solid #F2F2F2;
-    padding-right: 16px;
-    border-radius: 30px;
-    margin-left: 30px;
-    user-select: none;
-    display: flex;
-    align-items: center;
-    transition: transform 200ms ease-in-out;
-}
-    
-.filtre p {
-    padding: 16px;
-    border-radius: 100px;
-    margin-right: 10px;
-    color: blue;
-    background-color: #deebff;
-    margin-left: -2px;
-    margin-top: -2px;
-    margin-bottom: -2px;
-    border: 1px solid #deebff;
-    width: 16px;
-    text-align: center;
-    cursor: pointer;
-}
-
-.filtreeco p {
-    padding-left: 13px;
-}
-    
-#information {
-    margin-top: 35px;
-    display: flex;
-    align-items: center;
-}
-    
-.filtre:hover {
-    transform: scale(1.1);
-}
-
-#information p {
-    border: 1px solid #F2F2F2; 
-    padding: 8px;
-    border-radius: 100%;
-    color: #0065fc;
-    text-align: center;
-    width: 12px;
-    margin-right: 15px;
-    font-size: 12px;
-}
-
-#hebergements h1 {
-    margin-left: 25px;
-    margin-top: 40px;        
-}
-
 .auba {
     width: 205px;
     padding: 4px;
@@ -554,11 +494,6 @@ footer {
     border-radius: 20px;
     margin: 0px;
     box-shadow: 2px 1px 5px 2px rgb(209, 209, 209);
-}
-
-.Canne {
-    border-radius: 20px;
-    margin: 10px;
 }
     
 .cadre_hebergement {
@@ -568,22 +503,6 @@ footer {
     -o-object-fit: cover;
     object-fit: cover;
 }
-
-.AubergeCanne {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-    
-.act_hebergement {
-    line-height: 5px;
-    margin-bottom: 5px;
-    margin-left: 10px;
-}
-
-.AubStar {
-    margin-top: 23px;
-}
     
 .affichage {
     margin-left: 50px;
@@ -592,90 +511,13 @@ footer {
     margin-bottom: 40px;
     font-size: 1.15rem;
 }
-
-#populaire h1 {
-    margin-left: 30px;
-    margin-right: 21px;
-    margin-top: 40px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.popu {
-    margin-top: 20px;
-    margin-left: 30px;
-    margin: 0;
-    padding: 6px;
-    display: flex;
-    background-color: white;
-    border-radius: 10px 10px 10px 10px;
-    box-shadow: 2px 1px 5px 2px rgb(209, 209, 209);
-}
-
-.soleil {
-    margin: 10px;
-    border-radius: 10px;
-}
-    
+   
 .cadre_populaire {
     width: 100px;
     height: 120px;
     border-radius: 10px 0px 0px 10px;
     -o-object-fit: cover;
     object-fit: cover;
-}
-
-.popu i {
-    margin-top: 30px;
-}
-    
-.hotelsoleil {
-    display: flex;
-    flex-direction: column;
-    margin-left: 20px;
-    margin-right: 30px;
-}
-
-.act_populaire {
-    margin-left: 24px;
-    width: 160px;
-}
-    
-.HotSol {
-    margin-top: 10px;
-}
-    
-.HotStar {
-    margin-top: -10px;
-}
-
-figcaption i {
-    color: #0065fc;
-}
-    
-.AubCan, .HotSol {
-    font-weight: bold;
-    font-size: 1.1rem;
-}
-    
-#activitesspecial {
-    margin-top: 30px;
-}
-
-.marseillebo {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-left: -10px;
-    margin-right: -10px;
-}
-   
-.acti {
-    background-color: white;
-    border-radius: 20px;
-    border: 1px solid #F2F2F2;
-    margin-top: 13px;
-    margin: 0;
 }
 
 .city {
@@ -1134,6 +976,10 @@ h2 {
     height: 120px;
 }
 
+.cadre_populaire {
+    width: calc(45% - 0px);
+}
+
 .AubergeCanne {
     margin-left: -3px;
     margin-right: 0px;
@@ -1156,7 +1002,7 @@ h2 {
     display: flex;
     margin-top: 0px;
     flex-wrap: wrap;
-    margin-left: -30px;
+    margin-left: -40px;
 }
 
 #filter {
