@@ -25,19 +25,19 @@
             </nav>
     </header>
     <main class="main">
-    <section>
+    <section id="contain_principal">
         <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
         <h2>En plein centre ville ou en pleine nature</h2>
         <div id="searchcontain">
             <label for="searchmap"><i class="fas fa-map-marker-alt"></i></label>
-            <input type="text" id="searchmap" name="searchmap" placeholder="Marseille,France"/>
+            <input type="text" id="searchmap" name="searchmap" value="Marseille,France"/>
             <div class="point_search"><span class="search">Rechercher</span><i class="fas fa-search"></i></div>
         </div>
 
         <h1><span id="filter">Filtres</span></h1>
         <div id="filscontain">
             <h1>Filtres</h1>
-            <div class="filtre filtreeco"><p><i class="fas fa-money-bill-wave"></i></p>Economique</div>
+            <div class="filtre"><p><i class="fas fa-money-bill-wave"></i></p>Economique</div>
             <div class="filtre"><p><i class="fas fa-child"></i></p>Familial</div>
             <div class="filtre"><p><i class="fas fa-heart"></i></p>Romantique</div>
             <div class="filtre"><p><i class="fas fa-dog"></i></p>Animaux autorisés</div>
@@ -155,11 +155,13 @@
                                 <figcaption class="act_populaire">
                                     <p class="HotSol">Hôtel Le soleil du matin</p>
                                     <p class="HotStar">Nuit à partir de <strong>128€</strong></p>
+                                    <div class="popu_star">
                                         <i class="fas fa-star star"></i>
                                         <i class="fas fa-star star"></i>
                                         <i class="fas fa-star star"></i>
                                         <i class="fas fa-star star"></i>
                                         <i class="fas fa-star star"></i>
+                                    </div>
                                 </figcaption>
                             </figure>
                         </a>
@@ -170,11 +172,13 @@
                                 <figcaption class="act_populaire">
                                     <p class="HotSol">Au coeur de l'eau chambres d'hôtes</p>
                                     <p class="HotStar">Nuit à partir de <strong>71€</strong></p>
+                                    <div class="popu_star">
                                         <i class="fas fa-star star"></i>
                                         <i class="fas fa-star star"></i>
                                         <i class="fas fa-star star"></i>
                                         <i class="fas fa-star star"></i>
                                         <i class="fas fa-star neutre"></i>
+                                    </div>
                                 </figcaption>
                             </figure>
                         </a>
@@ -185,11 +189,13 @@
                                 <figcaption class="act_populaire">
                                     <p class="HotSol">Hôtel Tout bleu et Blanc</p>
                                     <p class="HotStar">Nuit à partir de <strong>68€</strong></p>
+                                    <div class="popu_star">
                                         <i class="fas fa-star star"></i>
                                         <i class="fas fa-star star"></i>
                                         <i class="fas fa-star star"></i>
                                         <i class="fas fa-star star"></i>
                                         <i class="fas fa-star neutre"></i>
+                                    </div>
                                 </figcaption>
                             </figure>
                         </a>
@@ -261,6 +267,7 @@
                     </section>
                 </main>
                 <footer>
+                    <div class="foot">
                     <nav id="propos">
                         <ul>
                             <li class="contenutitle">A propos</li>
@@ -283,6 +290,7 @@
                             <li><a href="#">Nous contacter</a></li>
                         </ul>
                     </nav>
+                </div>
                 </footer>
 </body>
 </html>
