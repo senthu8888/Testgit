@@ -246,7 +246,7 @@ label {
     margin-left: 10px;
 }
 
-.AubStar {
+.Host_Star {
     margin-top: 23px;
 }
 
@@ -254,7 +254,7 @@ label {
     margin-left: 50px;
     margin-top: 30px;
     margin-bottom: 40px;
-    font-size: 1rem;
+    font-size: 1.15rem;
     font-weight: bold;
 }
 
@@ -318,12 +318,12 @@ label {
     margin-top: 30px;
 }
 
-.HotSol {
+.Hotel {
     margin-top: 10px;
     margin-bottom: 5px;
 }
 
-.HotStar {
+.Hotel_Star {
     margin-top: 0px;
 }
 
@@ -331,7 +331,7 @@ figcaption i {
     color: #0065FC;
 }
 
-.AubCan, .HotSol {
+.Host, .Hotel {
     font-weight: bold;
     font-size: 1.1rem;
 }
@@ -501,27 +501,13 @@ header, .main {
     -o-object-fit: cover;
     object-fit: cover;
 }
-    
-.affichage {
-    margin-left: 50px;
-    margin-top: 30px;
-    font-weight: 900;
-    margin-bottom: 40px;
-    font-size: 1.15rem;
-}
-   
+      
 .cadre_populaire {
     width: 100px;
     height: 120px;
     border-radius: 20px 0px 0px 20px;
     -o-object-fit: cover;
     object-fit: cover;
-}
-
-.act_populaire {
-    margin-left: 24px;
-    width: 160px;
-    position: relative;
 }
 
 .popu_star {
@@ -546,19 +532,6 @@ header, .main {
     align-items: center;
     margin-left: 20px;
     font-weight: bold;
-}
-
-.ville {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-    
-.acti_larger {
-    background-color: white;
-    border-radius: 20px;
-    border: 1px solid #f2f2f2;
-    margin: 0;
 }
     
 .cadre_larger {
@@ -1025,7 +998,7 @@ h2 {
     margin-right: 10px;
 }
 
-.HotSol {
+.Hotel {
     font-weight: bold;
     font-size: 14px;
 }
