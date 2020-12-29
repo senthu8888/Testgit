@@ -10,7 +10,7 @@ header, .main {
     box-sizing: border-box;
 }
 
-.fa-search {
+.fa-search, .introduction a {
     display: none;
 }
 
@@ -27,10 +27,6 @@ a {
 
 .introduction {
     text-align: center;
-}
-
-.introduction a {
-    display: none;
 }
 
 .secondaire {
@@ -126,7 +122,6 @@ label {
     cursor: pointer;
     width: 100px;
     border: 1px solid #0065FC;
-    user-select: none;
 }
 
 #searchmap {
@@ -134,6 +129,7 @@ label {
     border: 1px solid #f2f2f2;
     width: 210px;
     font-size: 19px;
+    outline-style: none;
 }
 
 #filscontain {
@@ -148,7 +144,6 @@ label {
     padding-right: 16px;
     border-radius: 30px;
     margin-left: 30px;
-    user-select: none;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -165,7 +160,7 @@ label {
     margin-right: 10px;
     color: #0065FC;
     background-color: #DEEBFF;
-    border: 1px solid #DEEBFF;
+    border: 2px solid #DEEBFF;
     width: 19px;
     text-align: center;
     cursor: pointer;
@@ -184,14 +179,17 @@ label {
 }
 
 #information p {
-    border: 1px solid #F2F2F2; 
-    padding: 8px;
+    height: 2rem;
+    width: 2rem;
+    min-height: 2rem;
+    min-width: 2rem;
+    border: solid 1px #D9D9D9;
     border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
     color: #0065FC;
-    text-align: center;
-    width: 12px;
-    margin-right: 15px;
-    font-size: 12px;
 }
 
 #EnsembleHer {
@@ -309,13 +307,14 @@ label {
 
 .act_populaire {
     margin-left: 24px;
-    width: 160px;
+    margin-right: 10px;
+    width: 100%;
     position: relative;
 }
 
 .popu_star {
     position: absolute;
-    margin-top: 30px;
+    margin-top: 35px;
 }
 
 .Hotel {
@@ -460,13 +459,13 @@ footer {
 }
 
 #assistance ul {
-    margin-left: 300px;
+    margin-left: 230px;
 }
 
 .contenutitle {
     font-weight: bold;
 }
-/*Début Bloc (940 - 1445)*/
+
 @media screen and (min-width: 940px) and (max-width: 1445px) 
 {
 header, .main {
@@ -476,13 +475,6 @@ header, .main {
 
 #contain {
     flex-direction: row;
-}
-
-#filscontain {
-    display: flex;
-    margin-top: 30px;
-    font-weight: 700;
-    align-items: center;
 }
 
 .auba {
@@ -542,7 +534,7 @@ header, .main {
     border-radius: 20px 20px 0 0;
 }
 
-.acti_small {
+.acti_small, .acti_normal {
     background-color: white;
     border-radius: 20px;
     border: 1px solid #f2f2f2;
@@ -555,13 +547,6 @@ header, .main {
     -o-object-fit: cover;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
-}
-    
-.acti_normal {
-    background-color: white;
-    border-radius: 20px;
-    border: 1px solid #f2f2f2;
-    margin: 0;
 }
 
 .cadre_normal {
@@ -633,7 +618,7 @@ footer {
 }
 }
 
-@media screen and (min-width: 940px) and (max-width: 1213px)
+@media screen and (min-width: 600px) and (max-width: 1213px)
 {
 #EnsembleHer {
     justify-content: center;
@@ -649,7 +634,10 @@ footer {
     width: 1000px;
     order: 1;
 }
+}
 
+@media screen and (min-width: 940px) and (max-width: 1213px)
+{
 .auba {
     width: 250px;
     padding: 4px;
@@ -673,12 +661,13 @@ footer {
 .hotelsoleil {
     display: flex;
     flex-direction: row;
-    margin-left: 20px;
+    margin-left: 30px;
     margin-right: 30px;
 }
     
 .popu {
     display: flex;
+    width: 290px;
 }
 }
 
@@ -703,9 +692,7 @@ footer {
     border-radius: 10px;
 }
 }
-/*Fin Bloc (940 - 1445)*/
 
-/*Début Bloc (600 - 940)*/
 @media screen and (min-width: 600px) and (max-width: 940px)
 {
 header, .main {
@@ -738,21 +725,6 @@ header {
     border-top: none;
 }
 
-#EnsembleHer {
-    justify-content: center;
-}
-
-#hebergements {
-    width: 1000px;
-    order: 2;
-    margin-top: 20px;
-}
-  
-#populaire {
-    width: 1000px;
-    order: 1;
-}
-
 #filscontain {
     display: flex;
     margin-top: 0px;
@@ -770,7 +742,7 @@ header {
 
 .filtre {
     border: 2px solid #F2F2F2;
-    padding-right: 16px;
+    padding-right: 12px;
     border-radius: 30px;
     margin-left: 10px;
     margin-top: 15px;
@@ -831,24 +803,16 @@ footer {
 }
 }
 
-@media screen and (min-width: 600px) and (max-width: 716px) 
+@media screen and (max-width: 716px) 
 {
 .cadre_activites, .cadre_larger, 
 .cadre_small, .cadre_normal {
     width: calc(100% - 0px);
-    height: 180px;
+    height: 135px;
 }
 }
 
-@media screen and (min-width: 600px) and (max-width: 665px)
-{
-#contain {
-    flex-direction: column;
-}
-}
-/*Fin Bloc (600 - 940)*/
-
-@media screen and (min-width: 200px) and (max-width: 600px)
+@media screen and (max-width: 600px)
 {
 #contain {
     flex-direction: column;
@@ -1005,12 +969,11 @@ h2 {
 
 .popu_star {
     position: absolute;
-    margin-top: 35px;
+    margin-top: 45px;
 }
 
 .act_populaire {
     margin-left: 24px;
-    width: 154px;
     font-size: 12px;
 }
 
@@ -1055,12 +1018,6 @@ h2 {
 .city {
     border-radius: 10px;
     margin: 10px;
-}
-
-.cadre_activites, .cadre_larger, 
-.cadre_small, .cadre_normal {
-    width: calc(100% - 0px);
-    height: 135px;
 }
 
 footer {
