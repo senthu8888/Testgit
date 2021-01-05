@@ -179,10 +179,10 @@ label {
 }
 
 #information p {
-    height: 2rem;
-    width: 2rem;
-    min-height: 2rem;
-    min-width: 2rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    min-height: 1.5rem;
+    min-width: 1.5rem;
     border: solid 1px #D9D9D9;
     border-radius: 100%;
     display: flex;
@@ -674,17 +674,9 @@ footer {
 }
 }
 
-@media screen and (max-width: 940px)
-{
-.foot {
-    justify-content: space-around;
-}
-} 
-
 @media screen and (max-width: 623px)
 {
 .foot {
-    /*place-content: flex-start;*/
     justify-content: right;
 }
 } 
