@@ -675,7 +675,7 @@ footer {
 {
 #contain {
     grid-template-columns: auto 1fr auto;
-    grid-template-areas: "image . inscrire" "menu menu menu"; /*3fois navbar*/
+    grid-template-areas: "image . inscrire" "menu menu menu";
 }
 
 .introduction {
@@ -702,6 +702,11 @@ footer {
 
 .inscription:hover {
     border-bottom-color: #0065FC;
+}
+
+#contain_principal {
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
 .search {
