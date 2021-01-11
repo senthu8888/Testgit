@@ -4,72 +4,64 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-header, .main {
+#contain {
+    display: grid;
+    align-items: center;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.introduction {
+    grid-area: image;
+    padding: 0 2rem;
+    height: 2.813rem;
+}
+
+.principal {
+    display: flex;
+    align-items: center;
+    grid-area: menu;
+}
+
+.inscription {
+    padding: 2rem;
+    font-weight: 500;
+    text-align: center;
+    transition-duration: 0.1s;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+}
+
+.inscription[data-active=true] {
+    color: #0065FC;
+}
+
+.inscription:hover {
+    color: #0065FC;
+}
+
+.inscription1 {
+    display: flex;
+    align-items: center;
+    grid-area: inscrire;
+    padding: 2rem;
+    color: #0065FC;
+    font-weight: 600;
+}
+
+.main {
     max-width: 1440px;
     margin: auto;
     box-sizing: border-box;
 }
 
-.fa-search, .introduction a {
+.fa-search {
     display: none;
 }
 
 a {
     text-decoration: none;
     color: black;
-}
-
-#contain {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-}
-
-.introduction {
-    text-align: center;
-}
-
-.secondaire {
-    display: flex;
-}
-
-.selection {
-    margin: 10px;
-    list-style: none;
-    text-decoration: none;
-}
-
-.selection:nth-child(1) {
-    order: 1;
-}
-
-.inscrire, .inscrire a {
-    color: #0065FC;
-}
-
-.inscription1 {
-    color: #0065FC;
-    font-size: 1.1rem;
-    font-weight: bold;
-    padding-left: 25px;
-    padding-right: 25px;
-    border-top: 4px solid white;
-    padding-top: 42px;
-}
-
-.inscription {
-    color: gray;
-    font-weight: normal;
-    font-size: 1.1rem;
-    padding-left: 25px;
-    padding-right: 25px;
-    border-top: 4px solid white;
-    padding-top: 42px;
-}
-
-.inscription:hover {
-    border-top: 2px solid #0065FC;
-    color: #0065FC;
 }
 
 h1 {
@@ -558,13 +550,9 @@ footer {
 
 @media screen and (min-width: 600px) and (max-width: 1380px)
 {
-header, .main {
+.main {
     margin-left: 3%;
     margin-right: 3%;
-}
-
-#contain {
-    flex-direction: row;
 }
 
 #EnsembleHer {
@@ -600,28 +588,6 @@ header, .main {
 
 @media screen and (min-width: 600px) and (max-width: 940px)
 {
-header {
-    display: block;
-}
-    
-.principal, .secondaire {
-    justify-content: center;
-    padding-inline-start: 0px;
-}
-
-.selection {
-    list-style: none;
-}
-    
-.inscription, .inscription1 {
-    border-top: none;
-    padding-top: 0px;
-}
-
-.inscription:hover, .inscription1:hover {
-    border-top: none;
-}
-
 #filscontain {
     display: flex;
     margin-top: 0px;
@@ -690,85 +656,56 @@ footer {
 }
 }
 
+@media screen and (min-width: 601px) {
+#contain {
+    grid-template-columns: auto 1fr auto auto;
+    grid-template-areas: "image . menu inscrire";
+}
+
+.inscription [data-active=true] {
+    border-top: 3px solid #0065FC;
+}
+
+.inscription:hover {
+    border-top: 3px solid #0065FC;
+}
+}
+
 @media screen and (max-width: 600px)
 {
 #contain {
-    flex-direction: column;
-}
-
-header {
-    margin: 0;
-    padding: 0;
-}
-
-#contain_principal {
-    margin-left: 3%;
-    margin-right: 3%;
-}
-
-.selection {
-    margin: 0px;
-}
-
-.selection a {
-    list-style: none;
+    grid-template-columns: auto 1fr auto;
+    grid-template-areas: "image . inscrire" "menu menu menu"; /*3fois navbar*/
 }
 
 .introduction {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 3%;
-    margin-right: 3%;
+    order: 0;
 }
 
-#contain ul {
-    padding: 0px;
+.inscription1 {
+    order: 1;
 }
 
-.introduction a {
-    display: inline-block;
-    padding: 0px;
-    border: none;
-    font-size: 1.2rem;
-    opacity: 1;
-    color: #0065FC;    
+.principal {
+    order: 2;
 }
 
-.troisieme {
-    border-bottom: 4px solid #F2F2F2;
-    width: 100%;
-    text-align: center;
-    padding: 20px;
-}
-
-.troisieme:hover {
-    border-bottom: 4px solid #0065FC;
-}
-
-.troisieme a:hover{
-    color: #0065FC;  
-}
-
-.secondaire {
-    display: flex;
-    justify-content: space-around;
-}
-
-.inscription, .inscription1 {
+.inscription {
     border-top: none;
-    padding-bottom: 10px;
-    padding-top: 0px;
-    margin-left: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
+    border-bottom: 3px solid #F2F2F2;
+    width: 50%;
 }
-    
-.inscrire, .search {
+
+.inscription[data-active=true] {
+    border-bottom-color: #0065FC;
+}
+
+.inscription:hover {
+    border-bottom-color: #0065FC;
+}
+
+.search {
     display: none;
-}
-    
-.inscription:hover, .inscription1:hover  {
-    border-top: none;
 }
 
 h1 {
